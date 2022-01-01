@@ -1,0 +1,7 @@
+---- vis / ericw-tools v0.18.1-32-g6660c5f ----
+running with 8 threads
+testlevel = 4
+LoadBSPFile: 'terrain.bsp'
+BSP is version 29
+LoadPortals: couldn't read terrain.prt
+No vising performed.

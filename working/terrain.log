@@ -1,0 +1,64 @@
+---- qbsp / ericw-tools v0.18.1-32-g6660c5f ----
+Input file: terrain.map
+Output file: terrain.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+         2590 faces
+          517 brushes
+            3 entities
+            3 unique texnames
+            9 texinfo
+
+Opened WAD: C:/quakedev/wads/e4m3.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          517 brushes
+          386 planes
+---- CSGFaces ----
+         2590 brushfaces
+         1141 csgfaces
+          524 mergedfaces
+---- SolidBSP ----
+          843 split nodes
+          375 solid leafs
+          448 empty leafs
+           21 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         3300 leaffaces
+         2884 nodefaces
+---- Portalize ----
+          469 vis leafs
+          469 vis clusters
+         1558 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-856 104 360), no filling performed.
+Leak file written to terrain.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (-856 104 360), no filling performed.
+Processing hull 2...
+*** WARNING 10: Reached occupant at (-856 104 360), no filling performed.
+---- WriteBSPFile ----
+Wrote terrain.bsp
+         1007 planes            20140
+         3220 vertexes          38640
+          843 nodes             20232
+            9 texinfo             360
+         2884 faces             57680
+         2498 clipnodes         19984
+          470 leafs             13160
+         3300 marksurfaces       6600
+        10917 surfedges         43668
+         6890 edges             27560
+            3 textures          16456
+              lightdata             0
+              visdata               0
+              entdata             172
+
+0.565 seconds elapsed
+Peak memory usage: 18537536 (17.7M)

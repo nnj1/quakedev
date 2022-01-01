@@ -1,0 +1,86 @@
+---- qbsp / ericw-tools v0.18.1-32-g6660c5f ----
+Input file: tutorial1.map
+Output file: tutorial1.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+           78 faces
+           13 brushes
+            7 entities
+           11 unique texnames
+           38 texinfo
+
+Opened WAD: C:/QuakeDev/wads/prototype.wad
+Opened WAD: C:/QuakeDev/wads/e1m1.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+           12 brushes
+           20 planes
+---- CSGFaces ----
+           72 brushfaces
+           73 csgfaces
+           74 mergedfaces
+---- SolidBSP ----
+           65 split nodes
+           20 solid leafs
+           45 empty leafs
+            1 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          154 leaffaces
+          151 nodefaces
+---- Portalize ----
+           46 vis leafs
+           46 vis clusters
+          100 vis portals
+---- FillOutside ----
+           39 outleafs
+---- MergeAll ----
+           29 mergefaces
+---- SolidBSP ----
+           21 split nodes
+           16 solid leafs
+            5 empty leafs
+            1 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+           51 leaffaces
+           47 nodefaces
+---- Portalize ----
+            6 vis leafs
+            6 vis clusters
+            6 vis portals
+---- Tjunc ----
+           52 world edges
+          157 edge points
+           30 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+---- WriteBSPFile ----
+Wrote tutorial1.bsp
+           65 planes             1300
+           68 vertexes            816
+           27 nodes               648
+           19 texinfo             760
+           53 faces              1060
+          276 clipnodes          2208
+           13 leafs               364
+           57 marksurfaces        114
+          242 surfedges           968
+          122 edges               488
+           11 textures         152808
+              lightdata             0
+              visdata               0
+              entdata             445
+
+0.186 seconds elapsed
+Peak memory usage: 816082 (0.8M)

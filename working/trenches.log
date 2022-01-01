@@ -1,0 +1,66 @@
+---- qbsp / ericw-tools v0.18.1-32-g6660c5f ----
+Input file: trenches.map
+Output file: trenches.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+           48 faces
+            8 brushes
+            5 entities
+           11 unique texnames
+           42 texinfo
+
+Opened WAD: C:/QuakeDev/wads/dm1.wad
+Opened WAD: C:/QuakeDev/wads/b_rock0.wad
+Opened WAD: C:/QuakeDev/wads/e1m1.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+            8 brushes
+           19 planes
+---- CSGFaces ----
+           48 brushfaces
+           48 csgfaces
+           60 mergedfaces
+---- SolidBSP ----
+           70 split nodes
+           14 solid leafs
+           45 empty leafs
+           12 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          307 leaffaces
+          306 nodefaces
+---- Portalize ----
+           57 vis leafs
+           57 vis clusters
+          139 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (704 32 40), no filling performed.
+Leak file written to trenches.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (704 32 40), no filling performed.
+Processing hull 2...
+*** WARNING 10: Reached occupant at (704 32 40), no filling performed.
+---- WriteBSPFile ----
+Wrote trenches.bsp
+           53 planes             1060
+          319 vertexes           3828
+           70 nodes              1680
+           30 texinfo            1200
+          306 faces              6120
+          140 clipnodes          1120
+           58 leafs              1624
+          307 marksurfaces        614
+         1224 surfedges          4896
+          752 edges              3008
+           13 textures         109376
+              lightdata             0
+              visdata               0
+              entdata             413
+
+0.114 seconds elapsed
+Peak memory usage: 1055118 (1.0M)
