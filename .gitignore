@@ -1,0 +1,9 @@
+*.exe
+*.dll
+*.txt
+*.html
+*.lnk
+*.pak
+/tools
+/wads
+/working
