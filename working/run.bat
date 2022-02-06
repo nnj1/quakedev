@@ -1,3 +1,3 @@
 cd\
 cd C:\QuakeDev
-quakespasm  +map shamjam
+quakespasm -game shamjam +map shamjam

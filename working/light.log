@@ -6,35 +6,35 @@ LoadBSPFile: 'shamjam.bsp'
 BSP is version 29
 SetQdirFromPath: no "maps" in 'C:\quakedev\working\/shamjam.bsp'--- ConvertTextures ---
 --- LoadEntities ---
-34 entities read, 20 are lights.
+38 entities read, 19 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	7 sky faces
-	445 solid faces
-	60 filtered faces
+	49 sky faces
+	508 solid faces
+	68 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 20 initial lights
-SetupLights: 20 after surface lights
-SetupLights: 20 after jittering
+SetupLights: 19 initial lights
+SetupLights: 19 after surface lights
+SetupLights: 19 after jittering
 WARNING: couldn't nudge light in solid at 304.000000 -80.000000 120.000000
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9..
-Final count: 20 lights, 0 suns in use.
+Final count: 19 lights, 0 suns in use.
 Colored light entities/settings detected: .lit output enabled.
 --- LightWorld ---
 --- LightThread ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 10325
+lightdatasize: 10820
 Writing shamjam.lit
 0 switchable light styles (32 max)
 Writing shamjam.bsp as BSP version 29
-0.651 seconds elapsed
+0.441 seconds elapsed
 
 stats:
-3.909101 lights tested, 2.222785 hits per sample point
+4.068981 lights tested, 2.380649 hits per sample point
 0.000000 surface lights tested, 0.000000 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
