@@ -1,0 +1,50 @@
+Command line: C:\QuakeDev\quakespasm-sdl12.exe
+Found SDL version 1.2.16
+Detected 8 CPUs.
+Quake 1.09 (c) id Software
+GLQuake 1.00 (c) id Software
+FitzQuake 0.85 (c) John Fitzgibbons
+FitzQuake SDL port (c) SleepwalkR, Baker
+QuakeSpasm 0.94.3 (c) Ozkan Sezer, Eric Wasylishen & others
+Host_Init
+Playing registered version.
+Console initialized.
+UDP Initialized
+WIPX_OpenSocket: Address family not supported by protocol family
+WIPX_Init: Unable to open control socket, IPX disabled
+Server using protocol 666 (FitzQuake)
+Exe: 15:55:36 Dec  5 2021
+256.0 megabyte heap
+Video mode 1280x720x24 60Hz (24-bit z-buffer, 0x FSAA) initialized
+GL_VENDOR: Intel
+GL_RENDERER: Intel(R) UHD Graphics 620
+GL_VERSION: 4.5.0 - Build 25.20.100.6577
+FOUND: ARB_vertex_buffer_object
+FOUND: ARB_multitexture
+GL_MAX_TEXTURE_UNITS: 8
+FOUND: ARB_texture_env_combine
+FOUND: ARB_texture_env_add
+FOUND: SDL_GL_SWAP_CONTROL
+FOUND: EXT_texture_filter_anisotropic
+FOUND: ARB_texture_non_power_of_two
+FOUND: GLSL
+Intel Display Adapter detected, enabling gl_clear
+
+Sound Initialization
+SDL audio spec  : 44100 Hz, 1024 samples, 2 channels
+SDL audio driver: dsound, 65536 bytes buffer
+Audio: 16 bit, stereo, 44100 Hz
+SDL detected 0 CD-ROM drives
+
+Language initialization
+Couldn't load 'localization/loc_english.txt'
+from 'C:\QuakeDev'
+
+========= Quake Initialized =========
+
+execing quake.rc
+execing default.cfg
+execing config.cfg
+couldn't exec autoexec.cfg
+3 demo(s) in loop
+Shutting down SDL sound

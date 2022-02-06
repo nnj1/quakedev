@@ -1,3 +1,3 @@
 cd\
 cd C:\QuakeDev
-quakespasm  +map terrain
+quakespasm  +map shamjam

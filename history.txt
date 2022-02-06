@@ -1,0 +1,30 @@
+scr_crosshairscale 3
+crosshair 1
+game mymod
+crosshair 1
+scr_crosshairscale 3
+game mymod
+game quakehd
+game qetweaks_v0.9
+start
+QETWEAKSPEEDOMETER
+saved1
+saved1 64
+saved1
+saved1 8
+saved1 80
+saved1 64
+game id1
+game qetweaks_v0.9
+saved1 64
+game
+saved1
+cl_moveforward
+game mymod
+bot_minplayers 9
+addbot
+addot 5
+fly
+game xmasjam2021
+game slayertest
+ 

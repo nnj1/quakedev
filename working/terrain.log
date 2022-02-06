@@ -4,9 +4,9 @@ Output file: terrain.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         2781 faces
-          548 brushes
-           21 entities
+         2813 faces
+          550 brushes
+           28 entities
            19 unique texnames
            57 texinfo
 
@@ -16,50 +16,71 @@ Opened WAD: C:/quakedev/wads/biome-pritchard.wad
 Opened WAD: C:/quakedev/wads/sludge1.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          546 brushes
-          433 planes
+          549 brushes
+          460 planes
 ---- CSGFaces ----
-         2769 brushfaces
-         1354 csgfaces
-          743 mergedfaces
+         2807 brushfaces
+         1422 csgfaces
+          817 mergedfaces
 ---- SolidBSP ----
-         1292 split nodes
-          563 solid leafs
-          639 empty leafs
-           91 water leafs
+         1356 split nodes
+          571 solid leafs
+          686 empty leafs
+          100 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         5061 leaffaces
-         4797 nodefaces
+         5255 leaffaces
+         4951 nodefaces
 ---- Portalize ----
-          730 vis leafs
-          730 vis clusters
-         2235 vis portals
+          786 vis leafs
+          786 vis clusters
+         2377 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-848 576 -232), no filling performed.
-Leak file written to terrain.pts
+          145 outleafs
+---- MergeAll ----
+          805 mergefaces
+---- SolidBSP ----
+         1167 split nodes
+          595 solid leafs
+          497 empty leafs
+           76 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         4110 leaffaces
+         3759 nodefaces
+---- Portalize ----
+          573 vis leafs
+          573 vis clusters
+         1845 vis portals
+---- Tjunc ----
+         2541 world edges
+        10839 edge points
+         2262 edges added by tjunctions
+            0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
 Processing hull 2...
 ---- WriteBSPFile ----
 Wrote terrain.bsp
-         1103 planes            22060
-         5324 vertexes          63888
-         1304 nodes             31296
-           46 texinfo            1840
-         4813 faces             96260
-         3097 clipnodes         24776
-          743 leafs             20804
-         5077 marksurfaces      10154
-        18693 surfedges         74772
-        11575 edges             46300
-           19 textures         649560
+         1181 planes            23620
+         4340 vertexes          52080
+         1173 nodes             28152
+           49 texinfo            1960
+         3769 faces             75380
+         3150 clipnodes         25200
+          580 leafs             16240
+         4120 marksurfaces       8240
+        16826 surfedges         67304
+         8414 edges             33656
+           19 textures         655000
               lightdata             0
               visdata               0
-              entdata            1575
+              entdata            2102
 
-0.985 seconds elapsed
-Peak memory usage: 24932654 (23.8M)
+0.953 seconds elapsed
+Peak memory usage: 23511776 (22.4M)

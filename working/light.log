@@ -2,39 +2,39 @@
 extra 4x4 sampling enabled
 Raytracing backend: Embree
 running with 8 threads
-LoadBSPFile: 'terrain.bsp'
+LoadBSPFile: 'shamjam.bsp'
 BSP is version 29
-SetQdirFromPath: no "maps" in 'C:\quakedev\working\/terrain.bsp'--- ConvertTextures ---
+SetQdirFromPath: no "maps" in 'C:\quakedev\working\/shamjam.bsp'--- ConvertTextures ---
 --- LoadEntities ---
-WARNING: entity at (-48 -160 -328) (monster_boss) has empty key/value "killtarget" ""
-WARNING: entity at (-48 -160 -328) (monster_boss) has empty key/value "target" ""
-WARNING: entity at (320 -128 -296) (item_artifact_invulnerability) has empty key/value "targetname" ""
-21 entities read, 12 are lights.
+34 entities read, 20 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	420 sky faces
-	4341 solid faces
-	4 filtered faces
+	7 sky faces
+	445 solid faces
+	60 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 12 initial lights
-SetupLights: 12 after surface lights
-SetupLights: 12 after jittering
+SetupLights: 20 initial lights
+SetupLights: 20 after surface lights
+SetupLights: 20 after jittering
+WARNING: couldn't nudge light in solid at 304.000000 -80.000000 120.000000
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7....8....9
-Final count: 12 lights, 0 suns in use.
+0....1....2....3....4....5....6....7....8....9..
+Final count: 20 lights, 0 suns in use.
+Colored light entities/settings detected: .lit output enabled.
 --- LightWorld ---
 --- LightThread ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 22104
+lightdatasize: 10325
+Writing shamjam.lit
 0 switchable light styles (32 max)
-Writing terrain.bsp as BSP version 29
-2.134 seconds elapsed
+Writing shamjam.bsp as BSP version 29
+0.651 seconds elapsed
 
 stats:
-0.083807 lights tested, 0.056619 hits per sample point
+3.909101 lights tested, 2.222785 hits per sample point
 0.000000 surface lights tested, 0.000000 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
