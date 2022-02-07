@@ -31,7 +31,7 @@ lightdatasize: 10820
 Writing shamjam.lit
 0 switchable light styles (32 max)
 Writing shamjam.bsp as BSP version 29
-0.498 seconds elapsed
+0.465 seconds elapsed
 
 stats:
 4.068981 lights tested, 2.380649 hits per sample point

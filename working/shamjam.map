@@ -624,11 +624,15 @@
 {
 "classname" "item_cells"
 "origin" "64 -8 16"
+"ritem" "1"
+"respawndelay" "45"
 }
 // entity 3
 {
 "classname" "weapon_lightning"
 "origin" "16 0 16"
+"ritem" "0"
+"respawndelay" "45"
 }
 // entity 4
 {
@@ -852,77 +856,33 @@
 }
 // entity 12
 {
-"classname" "func_group"
-"_tb_type" "_tb_group"
-"_tb_name" "wall torch"
-"_tb_id" "8"
-// brush 0
-{
-( 424 -440 96 ) ( 424 -440 88 ) ( 424 -424 96 ) woodflr1_2 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 424 -440 88 ) ( 440 -424 88 ) ( 424 -424 96 ) woodflr1_2 [ -1.0000000000000002 0 0 0 ] [ 0 1.0000000000000002 0 11.200012 ] 0 1 1
-( 424 -440 96 ) ( 440 -440 96 ) ( 424 -440 88 ) woodflr1_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 424 -424 96 ) ( 440 -424 96 ) ( 440 -440 96 ) woodflr1_2 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( 440 -424 88 ) ( 440 -424 96 ) ( 424 -424 96 ) woodflr1_2 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 440 -440 96 ) ( 440 -424 88 ) ( 424 -440 88 ) woodflr1_2 [ 1.0000000000000002 0 0 0 ] [ 0 -1.0000000000000002 0 -20.799988 ] 0 1 1
-( 440 -440 96 ) ( 440 -424 96 ) ( 440 -424 88 ) woodflr1_2 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-}
-}
-// entity 13
-{
-"classname" "light_torch_small_walltorch"
-"origin" "428 -428 108"
-"_tb_group" "8"
-}
-// entity 14
-{
-"classname" "light_torch_small_walltorch"
-"origin" "428 52 108"
-"angle" "90"
-"_tb_group" "8"
-}
-// entity 15
-{
-"classname" "light_torch_small_walltorch"
-"origin" "-52 -428 108"
-"angle" "270"
-"_tb_group" "8"
-}
-// entity 16
-{
-"classname" "light_torch_small_walltorch"
-"origin" "-52 52 108"
-"angle" "180"
-"_tb_group" "8"
-}
-// entity 17
-{
 "classname" "light"
 "origin" "432 -192 176"
 "light" "50"
 "angle" "180"
 }
-// entity 18
+// entity 13
 {
 "classname" "light"
 "origin" "-56 -192 176"
 "light" "50"
 "angle" "0"
 }
-// entity 19
+// entity 14
 {
 "classname" "light"
 "origin" "192 56 176"
 "light" "50"
 "angle" "270"
 }
-// entity 20
+// entity 15
 {
 "classname" "light"
 "origin" "192 -432 176"
 "light" "50"
 "angle" "90"
 }
-// entity 21
+// entity 16
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -956,7 +916,7 @@
 ( 288 -128 152 ) ( 296 -128 128 ) ( 296 -136 128 ) dung01_3 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 22
+// entity 17
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -990,7 +950,7 @@
 ( 248 -96 152 ) ( 248 -88 128 ) ( 248 -96 128 ) dung01_3 [ 0 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 23
+// entity 18
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -1048,13 +1008,13 @@
 ( 219.4448637286692 -207 24 ) ( 224 -190 30.666666666667325 ) ( 224 -190 24 ) dung01_3 [ 0.25881904510260395 0.965925826289046 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 24
+// entity 19
 {
 "classname" "light"
 "origin" "80 -192 120"
 "light" "150"
 }
-// entity 25
+// entity 20
 {
 "classname" "light"
 "origin" "192 -192 120"
@@ -1062,87 +1022,99 @@
 "light" "300"
 "_color" "0.419608 1 0.466667"
 }
-// entity 26
+// entity 21
 {
 "classname" "light"
 "origin" "304 -192 120"
 "angle" "180"
 "light" "150"
 }
-// entity 27
+// entity 22
 {
 "classname" "light"
 "origin" "304 -80 120"
 }
-// entity 28
+// entity 23
 {
 "classname" "light"
 "origin" "192 -80 120"
 "angle" "270"
 }
-// entity 29
+// entity 24
 {
 "classname" "light"
 "origin" "192 -304 120"
 "angle" "90"
 "light" "150"
 }
-// entity 30
+// entity 25
 {
 "classname" "light"
 "origin" "192 -304 24"
 "angle" "90"
 "light" "150"
 }
-// entity 31
+// entity 26
 {
 "classname" "item_rockets"
 "origin" "64 28 17"
+"respawndelay" "45"
+"ritem" "1"
 }
-// entity 32
+// entity 27
 {
 "classname" "item_spikes"
 "origin" "104 28 16"
+"respawndelay" "45"
+"ritem" "1"
 }
-// entity 33
+// entity 28
 {
 "classname" "item_shells"
 "origin" "104 -8 16"
+"ritem" "1"
+"respawndelay" "45"
 }
-// entity 34
+// entity 29
 {
 "classname" "monster_demon1"
 "origin" "12 -400 40"
 "angle" "180"
 }
-// entity 35
+// entity 30
 {
 "classname" "monster_hell_knight"
 "origin" "416 -320 40"
 "angle" "180"
 }
-// entity 36
+// entity 31
 {
 "classname" "monster_ogre_marksman"
 "origin" "396 -128 52"
 "angle" "180"
 }
-// entity 37
+// entity 32
 {
 "classname" "weapon_rocketlauncher"
 "origin" "16 36 16"
+"respawndelay" "45"
+"ritem" "0"
 }
-// entity 38
+// entity 33
 {
 "classname" "weapon_supernailgun"
 "origin" "-36 36 16"
+"ritem" "0"
+"respawndelay" "45"
 }
-// entity 39
+// entity 34
 {
 "classname" "item_armorInv"
 "origin" "24 -36 16"
+"respawndelay" "45"
+"ritem" "1"
 }
-// entity 40
+// entity 35
 {
 "classname" "trigger_once"
 "message" "shamjam \n by bootypipe"
@@ -1157,7 +1129,7 @@
 ( -32 0 32 ) ( -32 0 33 ) ( -32 1 32 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 41
+// entity 36
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -1191,7 +1163,7 @@
 ( 288 -248 152 ) ( 296 -248 128 ) ( 296 -256 128 ) dung01_3 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 42
+// entity 37
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -1279,7 +1251,7 @@
 ( 216 80 136 ) ( 216 80 137 ) ( 216 81 136 ) sky1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 43
+// entity 38
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -1321,32 +1293,76 @@
 ( 224 56 80 ) ( 224 64 80 ) ( 224 64 72 ) TF_Stone4_2 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 44
+// entity 39
 {
 "classname" "monster_shambler"
 "origin" "192 -192 52"
 }
-// entity 45
+// entity 40
 {
 "classname" "monster_wizard"
 "origin" "392 -408 280"
 "angle" "180"
 }
-// entity 46
+// entity 41
 {
 "classname" "monster_wizard"
 "origin" "-8 -408 280"
 "angle" "0"
 }
-// entity 47
+// entity 42
 {
 "classname" "monster_wizard"
 "origin" "392 24 280"
 "angle" "180"
 }
-// entity 48
+// entity 43
 {
 "classname" "trigger_cdtrack"
 "origin" "-56 -24 24"
 "count" "01"
+}
+// entity 44
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "wall torch"
+"_tb_id" "8"
+// brush 0
+{
+( 424 -440 96 ) ( 424 -440 88 ) ( 424 -424 96 ) woodflr1_2 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 424 -440 88 ) ( 440 -424 88 ) ( 424 -424 96 ) woodflr1_2 [ -1.0000000000000002 0 0 0 ] [ 0 1.0000000000000002 0 11.200012 ] 0 1 1
+( 424 -440 96 ) ( 440 -440 96 ) ( 424 -440 88 ) woodflr1_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 424 -424 96 ) ( 440 -424 96 ) ( 440 -440 96 ) woodflr1_2 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 440 -424 88 ) ( 440 -424 96 ) ( 424 -424 96 ) woodflr1_2 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 440 -440 96 ) ( 440 -424 88 ) ( 424 -440 88 ) woodflr1_2 [ 1.0000000000000002 0 0 0 ] [ 0 -1.0000000000000002 0 -20.799988 ] 0 1 1
+( 440 -440 96 ) ( 440 -424 96 ) ( 440 -424 88 ) woodflr1_2 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 45
+{
+"classname" "light_torch_small_walltorch"
+"origin" "428 -428 108"
+"_tb_group" "8"
+}
+// entity 46
+{
+"classname" "light_torch_small_walltorch"
+"origin" "428 52 108"
+"angle" "90"
+"_tb_group" "8"
+}
+// entity 47
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-52 -428 108"
+"angle" "270"
+"_tb_group" "8"
+}
+// entity 48
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-52 52 108"
+"angle" "180"
+"_tb_group" "8"
 }
