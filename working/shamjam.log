@@ -6,7 +6,7 @@ Output file: shamjam.bsp
 *** WARNING 06: No info_player_deathmatch entities in level
           716 faces
           112 brushes
-           52 entities
+           50 entities
            11 unique texnames
            96 texinfo
 
@@ -29,35 +29,35 @@ Processing hull 0...
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1548 leaffaces
-         1421 nodefaces
+         1622 leaffaces
+         1490 nodefaces
 ---- Portalize ----
           619 vis leafs
           619 vis clusters
-         1881 vis portals
+         1879 vis portals
 ---- FillOutside ----
           224 outleafs
 ---- MergeAll ----
-          552 mergefaces
+          554 mergefaces
 ---- SolidBSP ----
-          350 split nodes
-          129 solid leafs
-          213 empty leafs
+          352 split nodes
+          130 solid leafs
+          214 empty leafs
             9 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          904 leaffaces
-          629 nodefaces
+          960 leaffaces
+          680 nodefaces
 ---- Portalize ----
-          222 vis leafs
-          222 vis clusters
-          838 vis portals
+          223 vis leafs
+          223 vis clusters
+          841 vis portals
 ---- Tjunc ----
-          740 world edges
-         2318 edge points
-          569 edges added by tjunctions
+          787 world edges
+         2507 edge points
+          652 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -65,20 +65,20 @@ Processing hull 1...
 Processing hull 2...
 ---- WriteBSPFile ----
 Wrote shamjam.bsp
-          466 planes             9320
-          884 vertexes          10608
-          362 nodes              8688
+          581 planes            11620
+          994 vertexes          11928
+          364 nodes              8736
            90 texinfo            3600
-          665 faces             13300
-          924 clipnodes          7392
-          235 leafs              6580
-          940 marksurfaces       1880
-         3210 surfedges         12840
-         1606 edges              6424
+          734 faces             14680
+         1321 clipnodes         10568
+          236 leafs              6608
+         1014 marksurfaces       2028
+         3576 surfedges         14304
+         1789 edges              7156
            11 textures         252428
               lightdata             0
               visdata               0
-              entdata            3383
+              entdata            3543
 
-0.436 seconds elapsed
-Peak memory usage: 6032224 (5.8M)
+0.307 seconds elapsed
+Peak memory usage: 7079836 (6.8M)
