@@ -4,12 +4,11 @@ testlevel = 4
 LoadBSPFile: 'shamjam.bsp'
 BSP is version 29
    223 leafs
-   841 portals
+   833 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
-WARNING: Leaf portals saw into leaf (2)
 WARNING: Leaf portals saw into leaf (5)
 WARNING: Leaf portals saw into leaf (8)
 WARNING: Leaf portals saw into leaf (9)
@@ -155,7 +154,7 @@ WARNING: Leaf portals saw into leaf (219)
 WARNING: Leaf portals saw into leaf (220)
 average leafs visible: 197
 c_noclip: 0
-c_chains: 3692185
+c_chains: 3678445
 visdatasize:6019  compressed from 6244
 Writing shamjam.bsp as BSP version 29
-  3.9 seconds elapsed
+  4.2 seconds elapsed

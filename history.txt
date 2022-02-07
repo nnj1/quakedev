@@ -27,3 +27,4 @@ crosshair 1
 map shamjam
 game
 map shamjam
+notarget
