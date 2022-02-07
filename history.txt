@@ -1,31 +1,30 @@
-saved1
-saved1 8
-saved1 80
-saved1 64
-game id1
-game qetweaks_v0.9
-saved1 64
-game
-saved1
-cl_moveforward
-game mymod
-bot_minplayers 9
-addbot
-addot 5
-fly
-game xmasjam2021
-game slayertest
- 
-game
-music
-gam
-game
-cd
-music
-track
-music track01.ogg
-game
-map shamjam
-game
-map shamjam
-music
+quit
+record my_demo
+stop
+playdemo My-demo
+playdemo my_demo
+notarget
+playdemo demo2
+hud
+show_hud
+ show_weapon
+weapon
+R_drawViewModel 0
+r_drawviewmodel
+r_drawviewmodel 0
+`god
+god
+`god
+god
+playdemo trailer
+viewsize 120
+playdemo trailer
+R_weaponviewmodel
+R_viewmodel
+R_drawViewModel 0
+R_drawViewModel 
+R_drawviewmodel
+rdrawviewmodel
+r_drawviewmodel
+r_drawviewmodel 0
+playdemo trailer

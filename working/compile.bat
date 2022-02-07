@@ -26,4 +26,4 @@ copy shamjam.lit C:\quakedev\shamjam\maps
 pause
 cd\
 cd C:\QuakeDev
-quakespasm -game shamjam +map shamjam
+quakespasm -game shamjam +god +fly +notarget +map shamjam
