@@ -24,3 +24,6 @@ playdemo trailer
 r_drawviewmodel 1
 viewsize 100
 crosshair 1
+map shamjam
+game
+map shamjam
