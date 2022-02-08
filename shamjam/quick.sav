@@ -1,0 +1,724 @@
+5
+______________________kills:__0/__7____
+4097.000000
+100.000000
+0.000000
+25.000000
+0.000000
+0.000000
+0.000000
+1.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+1
+shamjam
+4.287000
+m
+mmnmmommommnonmmonqnmmo
+abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedcba
+mmmmmaaaaammmmmaaaaaabcdefgabcdefg
+mamamamamama
+jklmnopqrstuvwxyzyxwvutsrqponmlkj
+nmonqnmomnmomomno
+mmmaaaabcdefgmmmmaaaammmaamm
+mmmaaammmaaammmabcdefaaaammmmabcdefmmmaaaa
+aaaaaaaazzzzzzzz
+mmamammmmammamamaaamammma
+abcdefghijklmnopqrrqponmlkjihgfedcba
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+a
+{
+"self" "19"
+"other" "0"
+"world" "0"
+"time" "4.283115"
+"frametime" "0.014000"
+"force_retouch" "0.000000"
+"mapname" "shamjam"
+"deathmatch" "0.000000"
+"coop" "0.000000"
+"teamplay" "0.000000"
+"serverflags" "0.000000"
+"total_secrets" "0.000000"
+"total_monsters" "7.000000"
+"found_secrets" "0.000000"
+"killed_monsters" "0.000000"
+"parm1" "4097.000000"
+"parm2" "100.000000"
+"parm3" "0.000000"
+"parm4" "25.000000"
+"parm5" "0.000000"
+"parm6" "0.000000"
+"parm7" "0.000000"
+"parm8" "1.000000"
+"parm9" "0.000000"
+"parm10" "0.000000"
+"parm11" "0.000000"
+"parm12" "0.000000"
+"parm13" "0.000000"
+"parm14" "0.000000"
+"parm15" "0.000000"
+"parm16" "0.000000"
+"trace_allsolid" "0.000000"
+"trace_startsolid" "0.000000"
+"trace_fraction" "0.000000"
+"trace_plane_dist" "0.000000"
+"trace_ent" "0"
+"trace_inopen" "0.000000"
+"trace_inwater" "0.000000"
+"msg_entity" "0"
+"movedist" "0.000000"
+"gameover" "0.000000"
+"string_null" ""
+"newmis" "0"
+"activator" "1"
+"damage_attacker" "0"
+"framecount" "210.000000"
+"skill" "1.000000"
+"known_release" "0.000000"
+"lastnameused" ""
+"cutscene" "0.000000"
+"mindex_inviso" "40.000000"
+"total_not_in_coop" "0.000000"
+"total_not_in_sp" "0.000000"
+"total_not_on_skill2" "0.000000"
+"total_not_on_skill3" "0.000000"
+"done_inhibition_summary" "1.000000"
+"enemy_vis" "0.000000"
+"enemy_infront" "0.000000"
+"enemy_range" "0.000000"
+"enemy_yaw" "0.000000"
+"sight_entity" "0"
+"sight_entity_time" "0.000000"
+"highest_custom_key" "0.000000"
+"multi_ent" "0"
+"multi_damage" "0.000000"
+"lastspawn" "0"
+"bodyque_head" "2"
+"modelindex_eyes" "41.000000"
+"modelindex_player" "39.000000"
+"intermission_running" "0.000000"
+"intermission_exittime" "0.000000"
+"nextmap" ""
+"s" "0"
+"le1" "0"
+"le2" "0"
+"lightning_end" "0.000000"
+"hknight_type" "0.000000"
+"shub" "0"
+"elv_butn_dir" "0.000000"
+}
+{
+"modelindex" "1.000000"
+"movetype" "7.000000"
+"solid" "4.000000"
+"classname" "worldspawn"
+"model" "maps/shamjam.bsp"
+"wad" "C:/quakedev/wads/e4m8.wad;C:/quakedev/wads/mg1.wad"
+"alpha" "0.500000"
+}
+{
+"modelindex" "39.000000"
+"absmin" "-183.000000 53.000000 -46.000000"
+"absmax" "-149.000000 87.000000 12.000000"
+"movetype" "5.000000"
+"solid" "3.000000"
+"origin" "-166.000000 70.000000 -21.000000"
+"angles" "-0.000000 0.000000 0.000000"
+"classname" "player"
+"model" "progs/player.mdl"
+"frame" "12.000000"
+"mins" "-16.000000 -16.000000 -24.000000"
+"maxs" "16.000000 16.000000 32.000000"
+"size" "32.000000 32.000000 56.000000"
+"think" "player_stand1"
+"nextthink" "4.299998"
+"health" "100.000000"
+"weapon" "1.000000"
+"weaponmodel" "progs/v_shot.mdl"
+"currentammo" "25.000000"
+"ammo_shells" "25.000000"
+"items" "4353.000000"
+"takedamage" "2.000000"
+"view_ofs" "0.000000 0.000000 22.000000"
+"netname" "player"
+"flags" "4296.000000"
+"colormap" "1.000000"
+"team" "1.000000"
+"max_health" "100.000000"
+"th_pain" "player_pain"
+"th_die" "PlayerDie"
+"walkframe" "1.000000"
+"attack_finished" "1.300000"
+"air_finished" "16.271999"
+"deathtype" ""
+"dmg" "2.000000"
+"script_delay" "1.000000"
+"script_count" "2.000000"
+}
+{
+"absmin" "-1.000000 -1.000000 -1.000000"
+"absmax" "1.000000 1.000000 1.000000"
+"classname" "bodyque"
+"owner" "3"
+}
+{
+"absmin" "-1.000000 -1.000000 -1.000000"
+"absmax" "1.000000 1.000000 1.000000"
+"classname" "bodyque"
+"owner" "4"
+}
+{
+"absmin" "-1.000000 -1.000000 -1.000000"
+"absmax" "1.000000 1.000000 1.000000"
+"classname" "bodyque"
+"owner" "5"
+}
+{
+"absmin" "-1.000000 -1.000000 -1.000000"
+"absmax" "1.000000 1.000000 1.000000"
+"classname" "bodyque"
+"owner" "2"
+}
+{
+"absmin" "-167.000000 69.000000 -23.000000"
+"absmax" "-165.000000 71.000000 -21.000000"
+"origin" "-166.000000 70.000000 -22.000000"
+"classname" "info_player_start"
+}
+{
+"modelindex" "67.000000"
+"absmin" "-5.000000 75.000000 -59.968750"
+"absmax" "57.000000 137.000000 -3.968750"
+"movetype" "6.000000"
+"solid" "1.000000"
+"origin" "10.000000 90.000000 -59.968750"
+"classname" "item_cells"
+"model" "maps/b_batt0.bsp"
+"maxs" "32.000000 32.000000 56.000000"
+"size" "32.000000 32.000000 56.000000"
+"touch" "ammo_touch"
+"think" "PlaceItem"
+"weapon" "4.000000"
+"netname" "cells"
+"flags" "768.000000"
+"mdl" "maps/b_batt0.bsp"
+"aflag" "6.000000"
+"particles_offset" "12.000000 12.000000 12.000000"
+"ritem" "1.000000"
+"respawndelay" "45.000000"
+}
+{
+"modelindex" "68.000000"
+"absmin" "-101.000000 63.000000 -59.968750"
+"absmax" "-39.000000 125.000000 -3.968750"
+"movetype" "6.000000"
+"solid" "1.000000"
+"origin" "-70.000000 94.000000 -59.968750"
+"classname" "weapon_lightning"
+"model" "progs/g_light.mdl"
+"mins" "-16.000000 -16.000000 0.000000"
+"maxs" "16.000000 16.000000 56.000000"
+"size" "32.000000 32.000000 56.000000"
+"touch" "weapon_touch"
+"think" "PlaceItem"
+"weapon" "3.000000"
+"netname" "Thunderbolt"
+"flags" "768.000000"
+"mdl" "progs/g_light.mdl"
+"particles_offset" "0.000000 0.000000 31.000000"
+"respawndelay" "45.000000"
+}
+{
+"modelindex" "70.000000"
+"absmin" "-5.000000 129.000000 -59.968750"
+"absmax" "57.000000 191.000000 -3.968750"
+"movetype" "6.000000"
+"solid" "1.000000"
+"origin" "10.000000 144.000000 -59.968750"
+"classname" "item_rockets"
+"model" "maps/b_rock0.bsp"
+"maxs" "32.000000 32.000000 56.000000"
+"size" "32.000000 32.000000 56.000000"
+"touch" "ammo_touch"
+"think" "PlaceItem"
+"weapon" "3.000000"
+"netname" "rockets"
+"flags" "768.000000"
+"mdl" "maps/b_rock0.bsp"
+"aflag" "5.000000"
+"particles_offset" "8.000000 8.000000 16.000000"
+"ritem" "1.000000"
+"respawndelay" "45.000000"
+}
+{
+"modelindex" "71.000000"
+"absmin" "55.000000 129.000000 -59.968750"
+"absmax" "117.000000 191.000000 -3.968750"
+"movetype" "6.000000"
+"solid" "1.000000"
+"origin" "70.000000 144.000000 -59.968750"
+"classname" "item_spikes"
+"model" "maps/b_nail0.bsp"
+"maxs" "32.000000 32.000000 56.000000"
+"size" "32.000000 32.000000 56.000000"
+"touch" "ammo_touch"
+"think" "PlaceItem"
+"weapon" "2.000000"
+"netname" "nails"
+"flags" "768.000000"
+"mdl" "maps/b_nail0.bsp"
+"aflag" "25.000000"
+"particles_offset" "12.000000 12.000000 12.000000"
+"ritem" "1.000000"
+"respawndelay" "45.000000"
+}
+{
+"modelindex" "72.000000"
+"absmin" "55.000000 75.000000 -59.968750"
+"absmax" "117.000000 137.000000 -3.968750"
+"movetype" "6.000000"
+"solid" "1.000000"
+"origin" "70.000000 90.000000 -59.968750"
+"classname" "item_shells"
+"model" "maps/b_shell0.bsp"
+"maxs" "32.000000 32.000000 56.000000"
+"size" "32.000000 32.000000 56.000000"
+"touch" "ammo_touch"
+"think" "PlaceItem"
+"weapon" "1.000000"
+"netname" "shells"
+"flags" "768.000000"
+"mdl" "maps/b_shell0.bsp"
+"aflag" "20.000000"
+"particles_offset" "12.000000 12.000000 12.000000"
+"ritem" "1.000000"
+"respawndelay" "45.000000"
+}
+{
+"modelindex" "7.000000"
+"absmin" "-109.000000 -539.000000 -60.968750"
+"absmax" "-43.000000 -473.000000 29.031250"
+"movetype" "4.000000"
+"solid" "3.000000"
+"origin" "-76.000000 -506.000000 -35.968750"
+"velocity" "0.000000 0.000000 -80.000000"
+"angles" "0.000000 180.000000 0.000000"
+"classname" "monster_demon1"
+"model" "progs/demon.mdl"
+"frame" "4.000000"
+"mins" "-32.000000 -32.000000 -24.000000"
+"maxs" "32.000000 32.000000 64.000000"
+"size" "64.000000 64.000000 88.000000"
+"use" "monster_use"
+"think" "demon1_stand6"
+"nextthink" "4.385590"
+"health" "300.000000"
+"takedamage" "2.000000"
+"view_ofs" "0.000000 0.000000 25.000000"
+"flags" "544.000000"
+"waterlevel" "-1.000000"
+"watertype" "-1.000000"
+"ideal_yaw" "180.000000"
+"yaw_speed" "20.000000"
+"th_stand" "demon1_stand1"
+"th_walk" "demon1_walk1"
+"th_run" "demon1_run1"
+"th_missile" "demon1_jump1"
+"th_melee" "Demon_MeleeAttack"
+"th_pain" "demon1_pain"
+"th_die" "demon_die"
+"pausetime" "100000000.000000"
+}
+{
+"modelindex" "28.000000"
+"absmin" "513.000000 -403.000000 -60.968750"
+"absmax" "547.000000 -369.000000 5.031250"
+"movetype" "4.000000"
+"solid" "3.000000"
+"origin" "530.000000 -386.000000 -35.968750"
+"velocity" "0.000000 0.000000 -80.000000"
+"angles" "0.000000 180.000000 0.000000"
+"classname" "monster_hell_knight"
+"model" "progs/hknight.mdl"
+"frame" "2.000000"
+"mins" "-16.000000 -16.000000 -24.000000"
+"maxs" "16.000000 16.000000 40.000000"
+"size" "32.000000 32.000000 64.000000"
+"use" "monster_use"
+"think" "hknight_stand4"
+"nextthink" "4.300880"
+"health" "250.000000"
+"takedamage" "2.000000"
+"view_ofs" "0.000000 0.000000 25.000000"
+"flags" "544.000000"
+"waterlevel" "-1.000000"
+"watertype" "-1.000000"
+"ideal_yaw" "180.000000"
+"yaw_speed" "20.000000"
+"th_stand" "hknight_stand1"
+"th_walk" "hknight_walk1"
+"th_run" "hknight_run1"
+"th_missile" "hknight_magicc1"
+"th_melee" "hknight_melee"
+"th_pain" "hknight_pain"
+"th_die" "hknight_die"
+"pausetime" "100000000.000000"
+}
+{
+"modelindex" "4.000000"
+"absmin" "467.000000 -131.000000 -60.968750"
+"absmax" "533.000000 -65.000000 29.031250"
+"movetype" "4.000000"
+"solid" "3.000000"
+"origin" "500.000000 -98.000000 -35.968750"
+"velocity" "0.000000 0.000000 -80.000000"
+"angles" "0.000000 180.000000 0.000000"
+"classname" "monster_ogre_marksman"
+"model" "progs/ogre.mdl"
+"frame" "2.000000"
+"mins" "-32.000000 -32.000000 -24.000000"
+"maxs" "32.000000 32.000000 64.000000"
+"size" "64.000000 64.000000 88.000000"
+"use" "monster_use"
+"think" "ogre_stand4"
+"nextthink" "4.303581"
+"health" "200.000000"
+"takedamage" "2.000000"
+"view_ofs" "0.000000 0.000000 25.000000"
+"flags" "544.000000"
+"waterlevel" "-1.000000"
+"watertype" "-1.000000"
+"ideal_yaw" "180.000000"
+"yaw_speed" "20.000000"
+"th_stand" "ogre_stand1"
+"th_walk" "ogre_walk1"
+"th_run" "ogre_run1"
+"th_missile" "ogre2_nail1"
+"th_melee" "ogre_melee"
+"th_pain" "ogre_pain"
+"th_die" "ogre_die"
+"pausetime" "100000000.000000"
+}
+{
+"modelindex" "73.000000"
+"absmin" "-101.000000 117.000000 -59.968750"
+"absmax" "-39.000000 179.000000 -3.968750"
+"movetype" "6.000000"
+"solid" "1.000000"
+"origin" "-70.000000 148.000000 -59.968750"
+"classname" "weapon_rocketlauncher"
+"model" "progs/g_rock2.mdl"
+"mins" "-16.000000 -16.000000 0.000000"
+"maxs" "16.000000 16.000000 56.000000"
+"size" "32.000000 32.000000 56.000000"
+"touch" "weapon_touch"
+"think" "PlaceItem"
+"weapon" "3.000000"
+"netname" "Rocket Launcher"
+"flags" "768.000000"
+"mdl" "progs/g_rock2.mdl"
+"particles_offset" "0.000000 0.000000 32.000000"
+"respawndelay" "45.000000"
+}
+{
+"modelindex" "74.000000"
+"absmin" "-179.000000 117.000000 -59.968750"
+"absmax" "-117.000000 179.000000 -3.968750"
+"movetype" "6.000000"
+"solid" "1.000000"
+"origin" "-148.000000 148.000000 -59.968750"
+"classname" "weapon_supernailgun"
+"model" "progs/g_nail2.mdl"
+"mins" "-16.000000 -16.000000 0.000000"
+"maxs" "16.000000 16.000000 56.000000"
+"size" "32.000000 32.000000 56.000000"
+"touch" "weapon_touch"
+"think" "PlaceItem"
+"weapon" "8.000000"
+"netname" "Super Nailgun"
+"flags" "768.000000"
+"mdl" "progs/g_nail2.mdl"
+"particles_offset" "0.000000 0.000000 34.000000"
+"respawndelay" "45.000000"
+}
+{
+"modelindex" "75.000000"
+"absmin" "-89.000000 9.000000 -59.968750"
+"absmax" "-27.000000 71.000000 -3.968750"
+"movetype" "6.000000"
+"solid" "1.000000"
+"origin" "-58.000000 40.000000 -59.968750"
+"classname" "item_armorInv"
+"model" "progs/armor.mdl"
+"skin" "2.000000"
+"mins" "-16.000000 -16.000000 0.000000"
+"maxs" "16.000000 16.000000 56.000000"
+"size" "32.000000 32.000000 56.000000"
+"touch" "armor_touch"
+"think" "PlaceItem"
+"flags" "768.000000"
+"mdl" "progs/armor.mdl"
+"ritem" "1.000000"
+"respawndelay" "45.000000"
+}
+{
+}
+{
+"modelindex" "35.000000"
+"absmin" "161.000000 -227.000000 -42.968750"
+"absmax" "227.000000 -161.000000 47.031250"
+"movetype" "4.000000"
+"solid" "3.000000"
+"origin" "194.000000 -194.000000 -17.968750"
+"velocity" "0.000000 0.000000 -80.000000"
+"classname" "monster_shambler"
+"model" "progs/shambler.mdl"
+"frame" "15.000000"
+"mins" "-32.000000 -32.000000 -24.000000"
+"maxs" "32.000000 32.000000 64.000000"
+"size" "64.000000 64.000000 88.000000"
+"use" "monster_use"
+"think" "sham_stand17"
+"nextthink" "4.383115"
+"health" "600.000000"
+"takedamage" "2.000000"
+"view_ofs" "0.000000 0.000000 25.000000"
+"flags" "544.000000"
+"waterlevel" "-1.000000"
+"watertype" "-1.000000"
+"yaw_speed" "20.000000"
+"th_stand" "sham_stand1"
+"th_walk" "sham_walk1"
+"th_run" "sham_run1"
+"th_missile" "sham_magic1"
+"th_melee" "sham_melee"
+"th_pain" "sham_pain"
+"th_die" "sham_die"
+"pausetime" "100000000.000000"
+}
+{
+"modelindex" "20.000000"
+"absmin" "477.000000 -535.000000 307.000000"
+"absmax" "511.000000 -501.000000 373.000000"
+"movetype" "4.000000"
+"solid" "3.000000"
+"origin" "494.000000 -518.000000 332.000000"
+"velocity" "0.000000 0.000000 -80.000000"
+"angles" "0.000000 180.000000 0.000000"
+"classname" "monster_wizard"
+"model" "progs/wizard.mdl"
+"mins" "-16.000000 -16.000000 -24.000000"
+"maxs" "16.000000 16.000000 40.000000"
+"size" "32.000000 32.000000 64.000000"
+"use" "monster_use"
+"think" "wiz_stand2"
+"nextthink" "4.299998"
+"health" "80.000000"
+"takedamage" "2.000000"
+"view_ofs" "0.000000 0.000000 25.000000"
+"flags" "33.000000"
+"waterlevel" "-1.000000"
+"watertype" "-1.000000"
+"ideal_yaw" "180.000000"
+"yaw_speed" "10.000000"
+"th_stand" "wiz_stand1"
+"th_walk" "wiz_walk1"
+"th_run" "wiz_run1"
+"th_missile" "Wiz_Missile"
+"th_pain" "Wiz_Pain"
+"th_die" "wiz_die"
+"pausetime" "100000000.000000"
+}
+{
+"modelindex" "20.000000"
+"absmin" "-123.000000 -535.000000 307.000000"
+"absmax" "-89.000000 -501.000000 373.000000"
+"movetype" "4.000000"
+"solid" "3.000000"
+"origin" "-106.000000 -518.000000 332.000000"
+"velocity" "0.000000 0.000000 -80.000000"
+"classname" "monster_wizard"
+"model" "progs/wizard.mdl"
+"mins" "-16.000000 -16.000000 -24.000000"
+"maxs" "16.000000 16.000000 40.000000"
+"size" "32.000000 32.000000 64.000000"
+"use" "monster_use"
+"think" "wiz_stand2"
+"nextthink" "4.299998"
+"health" "80.000000"
+"takedamage" "2.000000"
+"view_ofs" "0.000000 0.000000 25.000000"
+"flags" "33.000000"
+"waterlevel" "-1.000000"
+"watertype" "-1.000000"
+"yaw_speed" "10.000000"
+"th_stand" "wiz_stand1"
+"th_walk" "wiz_walk1"
+"th_run" "wiz_run1"
+"th_missile" "Wiz_Missile"
+"th_pain" "Wiz_Pain"
+"th_die" "wiz_die"
+"pausetime" "100000000.000000"
+}
+{
+"modelindex" "20.000000"
+"absmin" "477.000000 113.000000 307.000000"
+"absmax" "511.000000 147.000000 373.000000"
+"movetype" "4.000000"
+"solid" "3.000000"
+"origin" "494.000000 130.000000 332.000000"
+"velocity" "0.000000 0.000000 -80.000000"
+"angles" "0.000000 180.000000 0.000000"
+"classname" "monster_wizard"
+"model" "progs/wizard.mdl"
+"mins" "-16.000000 -16.000000 -24.000000"
+"maxs" "16.000000 16.000000 40.000000"
+"size" "32.000000 32.000000 64.000000"
+"use" "monster_use"
+"think" "wiz_stand2"
+"nextthink" "4.299998"
+"health" "80.000000"
+"takedamage" "2.000000"
+"view_ofs" "0.000000 0.000000 25.000000"
+"flags" "33.000000"
+"waterlevel" "-1.000000"
+"watertype" "-1.000000"
+"ideal_yaw" "180.000000"
+"yaw_speed" "10.000000"
+"th_stand" "wiz_stand1"
+"th_walk" "wiz_walk1"
+"th_run" "wiz_run1"
+"th_missile" "Wiz_Missile"
+"th_pain" "Wiz_Pain"
+"th_die" "wiz_die"
+"pausetime" "100000000.000000"
+}
+{
+"absmin" "-179.000000 57.000000 -49.000000"
+"absmax" "-177.000000 59.000000 -47.000000"
+"solid" "1.000000"
+"origin" "-178.000000 58.000000 -48.000000"
+"classname" "trigger_cdtrack"
+"model" ""
+"use" "trigger_cdtrack_use"
+"count" "1.000000"
+}
+{
+"absmin" "193.000000 -195.000000 47.000000"
+"absmax" "195.000000 -193.000000 49.000000"
+"origin" "194.000000 -194.000000 48.000000"
+"classname" "func_monster_spawner"
+"use" "think_mobot"
+"target" "spawner"
+"targetname" "spawnerfunc"
+"style" "1.000000"
+"wait" "1.000000"
+"count" "995.000000"
+"style2" "1.000000"
+}
+{
+"absmin" "193.000000 -195.000000 13.000000"
+"absmax" "195.000000 -193.000000 15.000000"
+"origin" "194.000000 -194.000000 14.000000"
+"classname" "info_monster_spawnpoint"
+"targetname" "spawner"
+}
+{
+"absmin" "-191.000000 -567.000000 -61.000000"
+"absmax" "567.000000 191.000000 -47.000000"
+"solid" "1.000000"
+"classname" "trigger_multiple"
+"model" ""
+"mins" "-190.000000 -566.000000 -60.000000"
+"maxs" "566.000000 190.000000 -48.000000"
+"size" "756.000000 756.000000 12.000000"
+"touch" "multi_touch"
+"use" "multi_use"
+"target" "spawnerfunc"
+"wait" "0.200000"
+}
+{
+"absmin" "55.000000 39.000000 375.000000"
+"absmax" "57.000000 41.000000 377.000000"
+"origin" "56.000000 40.000000 376.000000"
+"classname" "trigger_counter"
+"use" "counter_use"
+"target" "shake_ground"
+"targetname" "monster_counter"
+"message" "KILLED 10 CUCKS!"
+"wait" "-1.000000"
+"count" "4.000000"
+}
+{
+"absmin" "55.000000 -201.000000 -37.000000"
+"absmax" "57.000000 -199.000000 -35.000000"
+"origin" "56.000000 -200.000000 -36.000000"
+"classname" "trigger_shake"
+"use" "shake_use"
+"think" "shake_think"
+"nextthink" "-1.000000"
+"targetname" "shake_ground"
+"noise" "rumble.wav"
+"wait" "3.000000"
+"dmg" "240.000000"
+"count" "1000.000000"
+}
+{
+}

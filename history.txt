@@ -1,24 +1,3 @@
-`god
-god
-playdemo trailer
-viewsize 120
-playdemo trailer
-R_weaponviewmodel
-R_viewmodel
-R_drawViewModel 0
-R_drawViewModel 
-R_drawviewmodel
-rdrawviewmodel
-r_drawviewmodel
-r_drawviewmodel 0
-playdemo trailer
-r_drawviewmodel 1
-viewsize 100
-crosshair 1
-map shamjam
-game
-map shamjam
-notarget
 map shamjam notarget god fly
 fov
 game
@@ -26,3 +5,13 @@ game shamjam
 map shamjam
 map shajam
 map shamjam
+god
+fly
+notarget
+scr_menuscale "3"
+god
+notarget
+fov
+fov 100
+fov
+viewsize 100
