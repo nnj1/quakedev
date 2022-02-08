@@ -6,7 +6,7 @@ Output file: shamjam.bsp
 *** WARNING 06: No info_player_deathmatch entities in level
           716 faces
           112 brushes
-           50 entities
+           51 entities
            11 unique texnames
            96 texinfo
 
@@ -78,7 +78,7 @@ Wrote shamjam.bsp
            11 textures         252428
               lightdata             0
               visdata               0
-              entdata            3543
+              entdata            3853
 
-0.348 seconds elapsed
-Peak memory usage: 7094454 (6.8M)
+0.402 seconds elapsed
+Peak memory usage: 7094562 (6.8M)

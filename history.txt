@@ -1,12 +1,3 @@
-hud
-show_hud
- show_weapon
-weapon
-R_drawViewModel 0
-r_drawviewmodel
-r_drawviewmodel 0
-`god
-god
 `god
 god
 playdemo trailer
@@ -28,3 +19,10 @@ map shamjam
 game
 map shamjam
 notarget
+map shamjam notarget god fly
+fov
+game
+game shamjam
+map shamjam
+map shajam
+map shamjam

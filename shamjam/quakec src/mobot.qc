@@ -44,6 +44,8 @@ local entity bot, spawn_spot;
 	spawn_tfog (bot.origin);
 	spawn_tdeath (bot.origin, bot);
 
+	bot.target = "monster_counter"; // make it target an in-game trigger
+
 	if (self.style == 1) // spawn a Doggo
 	{
 		// set size and shape

@@ -1398,18 +1398,7 @@
 "classname" "trigger_counter"
 "origin" "56 40 376"
 "targetname" "monster_counter"
-"message" "KILLED 10 CUCKS!"
+"message" "KILLED 5 CUCKS!"
 "spawnflags" "0"
-"count" "4"
-"target" "shake_ground"
-}
-// entity 50
-{
-"classname" "trigger_shake"
-"origin" "56 -200 -36"
-"targetname" "shake_ground"
-"wait" "3"
-"noise" "rumble.wav"
-"count" "1000"
-"dmg" "240"
+"count" "5"
 }
