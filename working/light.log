@@ -7,14 +7,14 @@ BSP is version 29
 SetQdirFromPath: no "maps" in 'C:\quakedev\working\/shamjam.bsp'--- ConvertTextures ---
 --- LoadEntities ---
 WARNING: entity at (56 40 376) (trigger_counter) has targetname "monster_counter", which is not targeted by anything.
-42 entities read, 18 are lights.
+43 entities read, 18 are lights.
 --- OptionsSummary ---
     "light" was set to "0" from map
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	59 sky faces
-	549 solid faces
-	94 filtered faces
+	561 solid faces
+	92 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 18 initial lights
 SetupLights: 18 after surface lights
@@ -29,14 +29,14 @@ Colored light entities/settings detected: .lit output enabled.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 23196
+lightdatasize: 23600
 Writing shamjam.lit
 0 switchable light styles (32 max)
 Writing shamjam.bsp as BSP version 29
-0.559 seconds elapsed
+0.755 seconds elapsed
 
 stats:
-4.505183 lights tested, 2.356687 hits per sample point
+4.471250 lights tested, 2.349120 hits per sample point
 0.000000 surface lights tested, 0.000000 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

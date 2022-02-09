@@ -15,3 +15,5 @@ fov
 fov 100
 fov
 viewsize 100
+NO TARGET
+NOTARGETET
