@@ -1496,9 +1496,9 @@
 "classname" "trigger_counter"
 "origin" "56 40 376"
 "targetname" "monster_counter"
-"message" "YOU HAVE SLAUGHTERED ENOUGH! \n NOW GET THE RUNE AND GET THE FUCK OUT!"
+"message" "YOU HAVE SLAUGHTERED ENOUGH!"
 "spawnflags" "1"
-"count" "94"
+"count" "4"
 "target" "shake_ground"
 "target2" "rune"
 "killtarget" "skyspawner"
@@ -1646,7 +1646,7 @@
 "ritem" "1"
 "respawndelay" "60"
 "target" ""
-"spawnflags" "2"
+"spawnflags" "0"
 }
 // entity 60
 {
@@ -1787,7 +1787,6 @@
 "spawnflags" "1"
 "count" "4"
 "delay" ""
-"targetname" "monster_counter"
 }
 // entity 77
 {
@@ -1797,7 +1796,6 @@
 "spawnflags" "1"
 "count" "14"
 "delay" ""
-"targetname" "monster_counter"
 }
 // entity 78
 {
@@ -1807,7 +1805,6 @@
 "spawnflags" "1"
 "count" "24"
 "delay" ""
-"targetname" "monster_counter"
 }
 // entity 79
 {
@@ -1817,7 +1814,6 @@
 "spawnflags" "1"
 "count" "34"
 "delay" ""
-"targetname" "monster_counter"
 }
 // entity 80
 {
@@ -1827,7 +1823,6 @@
 "spawnflags" "1"
 "count" "44"
 "delay" ""
-"targetname" "monster_counter"
 }
 // entity 81
 {
@@ -1837,7 +1832,6 @@
 "spawnflags" "1"
 "count" "54"
 "delay" ""
-"targetname" "monster_counter"
 }
 // entity 82
 {
@@ -1847,7 +1841,6 @@
 "spawnflags" "1"
 "count" "64"
 "delay" ""
-"targetname" "monster_counter"
 }
 // entity 83
 {
@@ -1857,15 +1850,31 @@
 "spawnflags" "1"
 "count" "74"
 "delay" ""
-"targetname" "monster_counter"
 }
 // entity 84
 {
 "classname" "trigger_counter"
 "origin" "264 64 376"
-"message" "ONLY 10 MORE!"
+"message" "10 MORE!"
 "spawnflags" "1"
-"count" "84"
+"count" "94"
 "delay" ""
-"targetname" "monster_counter"
+}
+// entity 85
+{
+"classname" "trigger_counter"
+"origin" "292 64 376"
+"message" "HALFWAY THERE!"
+"spawnflags" "1"
+"count" "44"
+"delay" ""
+}
+// entity 86
+{
+"classname" "trigger_counter"
+"origin" "320 64 376"
+"message" "HALFWAY THERE!"
+"spawnflags" "1"
+"count" "44"
+"delay" ""
 }

@@ -1496,9 +1496,9 @@
 "classname" "trigger_counter"
 "origin" "56 40 376"
 "targetname" "monster_counter"
-"message" "YOU HAVE SLAUGHTERED ENOUGH! \n NOW GET THE RUNE AND GET THE FUCK OUT!"
-"spawnflags" "1"
-"count" "94"
+"message" "YOU HAVE SLAUGHTERED ENOUGH!"
+"spawnflags" "0"
+"count" "100"
 "target" "shake_ground"
 "target2" "rune"
 "killtarget" "skyspawner"
@@ -1646,7 +1646,7 @@
 "ritem" "1"
 "respawndelay" "60"
 "target" ""
-"spawnflags" "2"
+"spawnflags" "0"
 }
 // entity 60
 {
@@ -1781,91 +1781,15 @@
 }
 // entity 76
 {
-"classname" "trigger_counter"
-"origin" "60 64 376"
-"message" "10 KILLS DOWN"
-"spawnflags" "1"
-"count" "4"
-"delay" ""
-"targetname" "monster_counter"
+"classname" "func_counter"
+"origin" "60 183 372"
+"targetname" "killcount"
+"count" "100"
+"spawnflags" "36"
 }
 // entity 77
 {
-"classname" "trigger_counter"
-"origin" "88 64 376"
-"message" "20 KILLS!"
-"spawnflags" "1"
-"count" "14"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 78
-{
-"classname" "trigger_counter"
-"origin" "116 64 376"
-"message" "30 KILLS!"
-"spawnflags" "1"
-"count" "24"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 79
-{
-"classname" "trigger_counter"
-"origin" "144 64 376"
-"message" "40 KILLS!"
-"spawnflags" "1"
-"count" "34"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 80
-{
-"classname" "trigger_counter"
-"origin" "168 64 376"
-"message" "HALFWAY THERE!"
-"spawnflags" "1"
-"count" "44"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 81
-{
-"classname" "trigger_counter"
-"origin" "192 64 376"
-"message" "60 KILLS!"
-"spawnflags" "1"
-"count" "54"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 82
-{
-"classname" "trigger_counter"
-"origin" "216 64 376"
-"message" "70 KILLS!"
-"spawnflags" "1"
-"count" "64"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 83
-{
-"classname" "trigger_counter"
-"origin" "240 64 376"
-"message" "80 KILLS!"
-"spawnflags" "1"
-"count" "74"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 84
-{
-"classname" "trigger_counter"
-"origin" "264 64 376"
-"message" "ONLY 10 MORE!"
-"spawnflags" "1"
-"count" "84"
-"delay" ""
-"targetname" "monster_counter"
+"classname" "func_oncount"
+"origin" "120 183 344"
+"count" "25"
 }

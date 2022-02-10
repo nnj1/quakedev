@@ -1496,9 +1496,9 @@
 "classname" "trigger_counter"
 "origin" "56 40 376"
 "targetname" "monster_counter"
-"message" "YOU HAVE SLAUGHTERED ENOUGH! \n NOW GET THE RUNE AND GET THE FUCK OUT!"
-"spawnflags" "1"
-"count" "94"
+"message" "YOU KILLED 100 CUCKS!"
+"spawnflags" "0"
+"count" "4"
 "target" "shake_ground"
 "target2" "rune"
 "killtarget" "skyspawner"
@@ -1646,7 +1646,7 @@
 "ritem" "1"
 "respawndelay" "60"
 "target" ""
-"spawnflags" "2"
+"spawnflags" "0"
 }
 // entity 60
 {
@@ -1771,101 +1771,26 @@
 }
 // entity 74
 {
-"classname" "weapon_supershotgun"
-"origin" "-152 150 -48"
+"classname" "trigger_look"
+"message" "Get the rune and get the fuck out!"
+"target" "runeboundingbox"
+// brush 0
+{
+( 2 -306 -60 ) ( 2 -305 -60 ) ( 2 -306 -59 ) skip [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 42 -386 -60 ) ( 42 -386 -59 ) ( 43 -386 -60 ) skip [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 42 -306 -60 ) ( 43 -306 -60 ) ( 42 -305 -60 ) skip [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 340 -86 108 ) ( 340 -85 108 ) ( 341 -86 108 ) skip [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 340 2 -58 ) ( 341 2 -58 ) ( 340 2 -57 ) skip [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 390 -86 -58 ) ( 390 -86 -57 ) ( 390 -85 -58 ) skip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
 }
 // entity 75
 {
-"classname" "weapon_grenadelauncher"
-"origin" "-104 100 -48"
+"classname" "weapon_supershotgun"
+"origin" "-152 150 -48"
 }
 // entity 76
 {
-"classname" "trigger_counter"
-"origin" "60 64 376"
-"message" "10 KILLS DOWN"
-"spawnflags" "1"
-"count" "4"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 77
-{
-"classname" "trigger_counter"
-"origin" "88 64 376"
-"message" "20 KILLS!"
-"spawnflags" "1"
-"count" "14"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 78
-{
-"classname" "trigger_counter"
-"origin" "116 64 376"
-"message" "30 KILLS!"
-"spawnflags" "1"
-"count" "24"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 79
-{
-"classname" "trigger_counter"
-"origin" "144 64 376"
-"message" "40 KILLS!"
-"spawnflags" "1"
-"count" "34"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 80
-{
-"classname" "trigger_counter"
-"origin" "168 64 376"
-"message" "HALFWAY THERE!"
-"spawnflags" "1"
-"count" "44"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 81
-{
-"classname" "trigger_counter"
-"origin" "192 64 376"
-"message" "60 KILLS!"
-"spawnflags" "1"
-"count" "54"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 82
-{
-"classname" "trigger_counter"
-"origin" "216 64 376"
-"message" "70 KILLS!"
-"spawnflags" "1"
-"count" "64"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 83
-{
-"classname" "trigger_counter"
-"origin" "240 64 376"
-"message" "80 KILLS!"
-"spawnflags" "1"
-"count" "74"
-"delay" ""
-"targetname" "monster_counter"
-}
-// entity 84
-{
-"classname" "trigger_counter"
-"origin" "264 64 376"
-"message" "ONLY 10 MORE!"
-"spawnflags" "1"
-"count" "84"
-"delay" ""
-"targetname" "monster_counter"
+"classname" "weapon_grenadelauncher"
+"origin" "-104 100 -48"
 }

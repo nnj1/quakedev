@@ -17,3 +17,15 @@ fov
 viewsize 100
 NO TARGET
 NOTARGETET
+fly
+notarget
+map shamjam
+notarget
+map shamjam
+notarget
+map shamjam
+`noclip
+noclip
+notarget
+viewpos
+map shamjam
