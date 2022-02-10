@@ -171,7 +171,7 @@ WARNING: Leaf portals saw into leaf (246)
 WARNING: Leaf portals saw into leaf (247)
 average leafs visible: 219
 c_noclip: 0
-c_chains: 5140811
+c_chains: 5227628
 visdatasize:7980  compressed from 8000
 Writing shamjam.bsp as BSP version 29
-  4.5 seconds elapsed
+ 15.6 seconds elapsed

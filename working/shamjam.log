@@ -79,7 +79,7 @@ Wrote shamjam.bsp
            19 textures         389460
               lightdata             0
               visdata               0
-              entdata            8264
+              entdata            8270
 
-0.305 seconds elapsed
+0.569 seconds elapsed
 Peak memory usage: 7561960 (7.2M)
