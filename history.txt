@@ -1,7 +1,3 @@
-map shamjam notarget god fly
-fov
-game
-game shamjam
 map shamjam
 map shajam
 map shamjam
@@ -29,3 +25,5 @@ noclip
 notarget
 viewpos
 map shamjam
+game shamjam
+/connect 
