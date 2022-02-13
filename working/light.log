@@ -5,6 +5,7 @@ running with 8 threads
 LoadBSPFile: 'shamjam.bsp'
 BSP is version 29
 SetQdirFromPath: no "maps" in 'C:\quakedev\working\/shamjam.bsp'--- ConvertTextures ---
+Loaded extended texinfo flags from shamjam.texinfo
 --- LoadEntities ---
 WARNING: brush entity with mins (-189.00 -565.00 -59.00) maxs (565.00 189.00 -49.00) (trigger_multiple) has targetname "ground_trigger", which is not targeted by anything.
 WARNING: entity at (56 40 376) (trigger_counter) has empty key/value "delay" ""
@@ -25,7 +26,7 @@ Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	59 sky faces
 	588 solid faces
-	97 filtered faces
+	91 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 23 initial lights
 SetupLights: 23 after surface lights
@@ -40,14 +41,14 @@ Colored light entities/settings detected: .lit output enabled.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 49400
+lightdatasize: 49344
 Writing shamjam.lit
 2 switchable light styles (32 max)
 Writing shamjam.bsp as BSP version 29
-1.212 seconds elapsed
+1.515 seconds elapsed
 
 stats:
-4.084230 lights tested, 2.011737 hits per sample point
+4.097091 lights tested, 2.021860 hits per sample point
 0.000000 surface lights tested, 0.000000 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
