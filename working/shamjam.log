@@ -4,83 +4,62 @@ Output file: shamjam.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          822 faces
-          128 brushes
-           89 entities
-           19 unique texnames
-          143 texinfo
+         1430 faces
+          200 brushes
+          101 entities
+           29 unique texnames
+          169 texinfo
 
 Opened WAD: C:/quakedev/wads/e4m8.wad
 Opened WAD: C:/quakedev/wads/mg1.wad
 Opened WAD: C:/quakedev/wads/biome-pritchard.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          115 brushes
-            4 detail
-          219 planes
+          167 brushes
+           24 detail
+          420 planes
 ---- CSGFaces ----
-          768 brushfaces
-          770 csgfaces
-          741 mergedfaces
+         1376 brushfaces
+         1920 csgfaces
+         2283 mergedfaces
 ---- SolidBSP ----
-          991 split nodes
-          292 solid leafs
-          655 empty leafs
-           21 water leafs
-           24 detail leafs
+         2335 split nodes
+          482 solid leafs
+         1505 empty leafs
+          203 water leafs
+          146 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1902 leaffaces
-         1758 nodefaces
+         5354 leaffaces
+         4908 nodefaces
 ---- Portalize ----
-          700 vis leafs
-          700 vis clusters
-         2085 vis portals
+         1854 vis leafs
+         1854 vis clusters
+         5603 vis portals
 ---- FillOutside ----
-          244 outleafs
----- MergeAll ----
-          688 mergefaces
----- SolidBSP ----
-          383 split nodes
-          131 solid leafs
-          239 empty leafs
-           10 water leafs
-            4 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-         1117 leaffaces
-          796 nodefaces
----- Portalize ----
-          249 vis leafs
-          201 vis clusters
-          748 vis portals
----- Tjunc ----
-          846 world edges
-         2690 edge points
-          724 edges added by tjunctions
-            0 faces added by tjunctions
+*** WARNING 10: Reached occupant at (494 130 340), no filling performed.
+Leak file written to shamjam.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
 Processing hull 2...
 ---- WriteBSPFile ----
 Wrote shamjam.bsp
-          653 planes            13060
-         1103 vertexes          13236
-          429 nodes             10296
-          119 texinfo            4760
-          828 faces             16560
-         1405 clipnodes         11240
-          292 leafs              8176
-         1149 marksurfaces       2298
-         3978 surfedges         15912
-         1990 edges              7960
-           20 textures         411264
+         1176 planes            23520
+         4068 vertexes          48816
+         2381 nodes             57144
+          144 texinfo            5760
+         4015 faces             80300
+         2631 clipnodes         21048
+         1751 leafs             49028
+         4451 marksurfaces       8902
+        15952 surfedges         63808
+        10264 edges             41056
+           39 textures         447460
               lightdata             0
               visdata               0
-              entdata            8270
+              entdata            8613
 
-1.025 seconds elapsed
-Peak memory usage: 7632686 (7.3M)
+1.358 seconds elapsed
+Peak memory usage: 19128926 (18.2M)

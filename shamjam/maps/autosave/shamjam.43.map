@@ -2786,17 +2786,5 @@
 // entity 98
 {
 "classname" "gib_head_ogre"
-"origin" "194 -40 108"
-"angle" "90"
-}
-// entity 99
-{
-"classname" "gib_head_demon"
-"origin" "348 -194 108"
-}
-// entity 100
-{
-"classname" "gib_head_hell_knight"
-"origin" "194 -346 108"
-"angle" "270"
+"origin" "202 -48 108"
 }

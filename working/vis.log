@@ -3,17 +3,5 @@ running with 8 threads
 testlevel = 4
 LoadBSPFile: 'shamjam.bsp'
 BSP is version 29
-   249 leafs
-   201 clusters
-   748 portals
-Calculating Base Vis:
-0....1....2....3....4....5....6....7....8....9....
-Calculating Full Vis:
-0....1....2....3....4....5....6....7....8....9....
-Expanding clusters...
-average leafs visible: 226
-c_noclip: 0
-c_chains: 2538690
-visdatasize:6361  compressed from 7968
-Writing shamjam.bsp as BSP version 29
-  9.8 seconds elapsed
+LoadPortals: couldn't read shamjam.prt
+No vising performed.
