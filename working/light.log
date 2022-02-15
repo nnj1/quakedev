@@ -22,8 +22,8 @@ WARNING: entity at (268 188 -308) (light) has unmatched "target" (road)
     "bounce" was set to "1" from map
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	179 sky faces
-	10809 solid faces
+	171 sky faces
+	10827 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 74 initial lights
@@ -40,16 +40,16 @@ Final count: 74 lights, 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 --- LightThread ---
 0....1....2....3....4....5....6....7....8....9....
-Indirect lights: 10653 bounce lights, 0 surface lights (0 light points) in use.
+Indirect lights: 10672 bounce lights, 0 surface lights (0 light points) in use.
 Lighting Completed.
 
-lightdatasize: 557183
+lightdatasize: 559840
 0 switchable light styles (32 max)
 Writing soj.bsp as BSP version 29
-59.011 seconds elapsed
+19.717 seconds elapsed
 
 stats:
-0.297090 lights tested, 0.110967 hits per sample point
+0.295942 lights tested, 0.110813 hits per sample point
 0.000000 surface lights tested, 0.000000 hits per sample point
-7.693764 bounce lights tested, 3.188143 hits per sample point
-717 empty lightmaps
+7.631209 bounce lights tested, 3.155683 hits per sample point
+716 empty lightmaps
