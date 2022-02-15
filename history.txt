@@ -1,9 +1,3 @@
-notarget
-viewpos
-map shamjam
-game shamjam
-/connect 
-game shamjam_with_chainsaw
 map shamjam
 game shamjam_with_chainsaw
 game shamjam
@@ -29,3 +23,9 @@ viewsize 100
 saveconfig
 config
 save
+viewsize 120
+noclip
+r_drawweaponview
+r_drawview
+r_drawviewmodel 0
+noclip

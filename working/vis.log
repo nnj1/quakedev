@@ -1,7 +1,19 @@
 ---- vis / ericw-tools v0.18.1-32-g6660c5f ----
+fastvis = true
 running with 8 threads
 testlevel = 4
-LoadBSPFile: 'shamjam.bsp'
+LoadBSPFile: 'soj.bsp'
 BSP is version 29
-LoadPortals: couldn't read shamjam.prt
-No vising performed.
+  4491 leafs
+  1565 clusters
+  5506 portals
+Calculating Base Vis:
+0....1....2....3....4....5....6....7....8....9....
+Calculating Full Vis:
+Expanding clusters...
+average leafs visible: 4087
+c_noclip: 0
+c_chains: 0
+visdatasize:825606  compressed from 2523942
+Writing soj.bsp as BSP version 29
+  5.4 seconds elapsed

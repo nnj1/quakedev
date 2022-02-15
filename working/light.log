@@ -2,54 +2,54 @@
 extra 4x4 sampling enabled
 Raytracing backend: Embree
 running with 8 threads
-LoadBSPFile: 'shamjam.bsp'
+LoadBSPFile: 'soj.bsp'
 BSP is version 29
-SetQdirFromPath: no "maps" in 'C:\quakedev\working\/shamjam.bsp'--- ConvertTextures ---
-Loaded extended texinfo flags from shamjam.texinfo
+SetQdirFromPath: no "maps" in 'C:\quakedev\working\/soj.bsp'--- ConvertTextures ---
+Loaded extended texinfo flags from soj.texinfo
 --- LoadEntities ---
-WARNING: brush entity with mins (-189.00 -565.00 -59.00) maxs (565.00 189.00 -49.00) (trigger_multiple) has targetname "ground_trigger", which is not targeted by anything.
-WARNING: entity at (548 172 72) (light_torch_small_walltorch) has empty key/value "target" ""
-WARNING: entity at (56 40 376) (trigger_counter) has empty key/value "delay" ""
-WARNING: entity at (516 -554 -46) (item_health) has empty key/value "target" ""
-WARNING: entity at (60 64 376) (trigger_counter) has empty key/value "delay" ""
-WARNING: entity at (88 64 376) (trigger_counter) has empty key/value "delay" ""
-WARNING: entity at (116 64 376) (trigger_counter) has empty key/value "delay" ""
-WARNING: entity at (144 64 376) (trigger_counter) has empty key/value "delay" ""
-WARNING: entity at (168 64 376) (trigger_counter) has empty key/value "delay" ""
-WARNING: entity at (192 64 376) (trigger_counter) has empty key/value "delay" ""
-WARNING: entity at (216 64 376) (trigger_counter) has empty key/value "delay" ""
-WARNING: entity at (240 64 376) (trigger_counter) has empty key/value "delay" ""
-WARNING: entity at (264 64 376) (trigger_counter) has empty key/value "delay" ""
-83 entities read, 23 are lights.
+WARNING: entity at (272 92 -308) (light) has unmatched "target" (road)
+WARNING: entity at (268 -164 -308) (light) has unmatched "target" (road)
+WARNING: entity at (272 -420 -308) (light) has unmatched "target" (road)
+WARNING: entity at (268 -680 -308) (light) has unmatched "target" (road)
+WARNING: entity at (268 -580 -308) (light) has unmatched "target" (road)
+WARNING: entity at (268 -328 -308) (light) has unmatched "target" (road)
+WARNING: entity at (272 -68 -308) (light) has unmatched "target" (road)
+WARNING: entity at (268 188 -308) (light) has unmatched "target" (road)
+78 entities read, 74 are lights.
 --- OptionsSummary ---
-    "light" was set to "0" from map
+    "light" was set to "40" from map
+    "phong" was set to "1" from map
+    "bounce" was set to "1" from map
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	988 sky faces
-	2796 solid faces
-	158 filtered faces
+	179 sky faces
+	10809 solid faces
+	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 23 initial lights
-SetupLights: 23 after surface lights
-SetupLights: 23 after jittering
-WARNING: couldn't nudge light in solid at 362.000000 -26.000000 96.000000
+SetupLights: 74 initial lights
+SetupLights: 74 after surface lights
+SetupLights: 74 after jittering
+WARNING: couldn't nudge light in solid at 332.000000 216.000000 -640.000000
+WARNING: couldn't nudge light in solid at 796.000000 -464.000000 44.000000
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7....8....9..
-Final count: 23 lights, 0 suns in use.
-Colored light entities/settings detected: .lit output enabled.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 74 lights, 0 suns in use.
 --- LightWorld ---
+--- MakeTextureColors ---
+--- MakeBounceLights ---
+0....1....2....3....4....5....6....7....8....9....
 --- LightThread ---
 0....1....2....3....4....5....6....7....8....9....
+Indirect lights: 10653 bounce lights, 0 surface lights (0 light points) in use.
 Lighting Completed.
 
-lightdatasize: 64428
-Writing shamjam.lit
-2 switchable light styles (32 max)
-Writing shamjam.bsp as BSP version 29
-1.523 seconds elapsed
+lightdatasize: 557183
+0 switchable light styles (32 max)
+Writing soj.bsp as BSP version 29
+59.011 seconds elapsed
 
 stats:
-2.741347 lights tested, 1.619936 hits per sample point
+0.297090 lights tested, 0.110967 hits per sample point
 0.000000 surface lights tested, 0.000000 hits per sample point
-0.000000 bounce lights tested, 0.000000 hits per sample point
-0 empty lightmaps
+7.693764 bounce lights tested, 3.188143 hits per sample point
+717 empty lightmaps
