@@ -13,7 +13,6 @@ echo Converting map...
 
 echo --------------QBSP--------------
 C:\QuakeDev\tools\ericw-tools-v0.18.1-32-g6660c5f-win32\bin\qbsp.exe soj
-pause
 
 echo --------------VIS---------------
 C:\QuakeDev\tools\ericw-tools-v0.18.1-32-g6660c5f-win32\bin\vis.exe -fast soj

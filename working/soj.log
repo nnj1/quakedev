@@ -4,11 +4,11 @@ Output file: soj.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         7860 faces
-         1156 brushes
-           92 entities
-           18 unique texnames
-          120 texinfo
+         7897 faces
+         1162 brushes
+          106 entities
+           22 unique texnames
+          139 texinfo
 
 Opened WAD: C:/quakedev/wads/e1m1.wad
 Opened WAD: C:/quakedev/wads/Makkon2.wad
@@ -17,75 +17,77 @@ Opened WAD: C:/quakedev/wads/mg1.wad
 Opened WAD: C:/quakedev/wads/prototype.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          772 brushes
+          776 brushes
           384 detail wall
-         3046 planes
+         3056 planes
 ---- CSGFaces ----
-         7860 brushfaces
-         5928 csgfaces
-         6504 mergedfaces
+         7885 brushfaces
+         6023 csgfaces
+         6665 mergedfaces
 ---- SolidBSP ----
-        11235 split nodes
-         2008 solid leafs
-         7261 empty leafs
+        12531 split nodes
+         2265 solid leafs
+         8143 empty leafs
           162 water leafs
-         1805 detail leafs
+         1962 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        27744 leaffaces
-        24109 nodefaces
+        30056 leaffaces
+        26290 nodefaces
 ---- Portalize ----
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (1113.193 -105.094 744.148)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1079.342 -211.245 703.271)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1122.297 -103.533 738.814)
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (1116.608 -104.509 742.147)
-         9228 vis leafs
-         9228 vis clusters
-        33857 vis portals
+        10267 vis leafs
+        10267 vis clusters
+        37480 vis portals
 ---- FillOutside ----
-          170 outleafs
+          176 outleafs
 ---- MergeAll ----
-         6605 mergefaces
+         6773 mergefaces
 ---- SolidBSP ----
-         7240 split nodes
-         1480 solid leafs
-         4365 empty leafs
+         8164 split nodes
+         1675 solid leafs
+         5017 empty leafs
           131 water leafs
-         1265 detail leafs
+         1342 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        20741 leaffaces
-        16292 nodefaces
+        22169 leaffaces
+        17603 nodefaces
 ---- Portalize ----
-         4496 vis leafs
-         1568 vis clusters
-         5467 vis portals
+         5148 vis leafs
+         1928 vis clusters
+         6717 vis portals
 ---- Tjunc ----
-        11489 world edges
-        37186 edge points
-         9015 edges added by tjunctions
+        12280 world edges
+        39997 edge points
+         9002 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1149.361 -65.264 705.558)
 Processing hull 2...
+*** WARNING 16: Texture d128x64 not found
 ---- WriteBSPFile ----
 Wrote soj.bsp
-         6127 planes           122540
-        13451 vertexes         161412
-         7240 nodes            173760
-          103 texinfo            4120
-        11190 faces            223800
-        13355 clipnodes        106840
-         4497 leafs            125916
-        13676 marksurfaces      27352
-        50426 surfedges        201704
-        25409 edges            101636
-           20 textures        4973044
+         6493 planes           129860
+        14424 vertexes         173088
+         8176 nodes            196224
+          117 texinfo            4680
+        12144 faces            242880
+        14303 clipnodes        114424
+         5161 leafs            144508
+        14739 marksurfaces      29478
+        54290 surfedges        217160
+        27353 edges            109412
+           27 textures        6099392
               lightdata             0
               visdata               0
-              entdata            5664
+              entdata            7174
 
-4.820 seconds elapsed
-Peak memory usage: 103916032 (99.1M)
+22.786 seconds elapsed
+Peak memory usage: 108718442 (103.7M)

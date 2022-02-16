@@ -1,5 +1,3 @@
-game shamjam_with_chainsaw
-map shamjam
 game circulation
 notarget
 map shamjam
@@ -28,3 +26,6 @@ r_drawviewmodel 0
 noclip
 r_wateralpha
 noclip
+map soj
+noclip
+noclip 0
