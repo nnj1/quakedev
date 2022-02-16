@@ -1,12 +1,3 @@
-game circulation
-notarget
-map shamjam
-notarget
-map shamjam
-notarget
-FOV 
-FOV
-POV
 game pd_200
 game
 map pd_cutscenes
@@ -29,3 +20,7 @@ noclip
 map soj
 noclip
 noclip 0
+noclip
+fullscreen 1
+noskip
+noclip

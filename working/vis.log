@@ -4,16 +4,16 @@ running with 8 threads
 testlevel = 4
 LoadBSPFile: 'soj.bsp'
 BSP is version 29
-  5148 leafs
-  1928 clusters
-  6717 portals
+  5373 leafs
+  2107 clusters
+  7381 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 Expanding clusters...
-average leafs visible: 4712
+average leafs visible: 4927
 c_noclip: 0
 c_chains: 0
-visdatasize:1183413  compressed from 3315312
+visdatasize:1344773  compressed from 3610656
 Writing soj.bsp as BSP version 29
- 13.6 seconds elapsed
+  4.1 seconds elapsed

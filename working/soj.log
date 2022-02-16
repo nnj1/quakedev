@@ -4,11 +4,11 @@ Output file: soj.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         7897 faces
-         1162 brushes
-          106 entities
-           22 unique texnames
-          139 texinfo
+         8011 faces
+         1181 brushes
+          118 entities
+           26 unique texnames
+          147 texinfo
 
 Opened WAD: C:/quakedev/wads/e1m1.wad
 Opened WAD: C:/quakedev/wads/Makkon2.wad
@@ -17,55 +17,56 @@ Opened WAD: C:/quakedev/wads/mg1.wad
 Opened WAD: C:/quakedev/wads/prototype.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          776 brushes
+          792 brushes
           384 detail wall
-         3056 planes
+         3083 planes
 ---- CSGFaces ----
-         7885 brushfaces
-         6023 csgfaces
-         6665 mergedfaces
+         7981 brushfaces
+         6454 csgfaces
+         6942 mergedfaces
 ---- SolidBSP ----
-        12531 split nodes
-         2265 solid leafs
+        12656 split nodes
+         2393 solid leafs
          8143 empty leafs
-          162 water leafs
-         1962 detail leafs
+          180 water leafs
+         1941 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        30056 leaffaces
-        26290 nodefaces
+        30373 leaffaces
+        26526 nodefaces
 ---- Portalize ----
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1113.193 -105.094 744.148)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1116.785 -92.687 769.914)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1144.097 -88.001 753.912)
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (1079.342 -211.245 703.271)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1122.297 -103.533 738.814)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1126.850 -102.752 736.148)
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (1116.608 -104.509 742.147)
-        10267 vis leafs
-        10267 vis clusters
-        37480 vis portals
+        10264 vis leafs
+        10264 vis clusters
+        37593 vis portals
 ---- FillOutside ----
-          176 outleafs
+          324 outleafs
 ---- MergeAll ----
-         6773 mergefaces
+         6889 mergefaces
 ---- SolidBSP ----
-         8164 split nodes
-         1675 solid leafs
-         5017 empty leafs
-          131 water leafs
-         1342 detail leafs
+         8604 split nodes
+         1863 solid leafs
+         5226 empty leafs
+          147 water leafs
+         1369 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        22169 leaffaces
-        17603 nodefaces
+        22857 leaffaces
+        18183 nodefaces
 ---- Portalize ----
-         5148 vis leafs
-         1928 vis clusters
-         6717 vis portals
+         5373 vis leafs
+         2107 vis clusters
+         7381 vis portals
 ---- Tjunc ----
-        12280 world edges
-        39997 edge points
-         9002 edges added by tjunctions
+        12631 world edges
+        41387 edge points
+         9076 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -74,20 +75,20 @@ Processing hull 2...
 *** WARNING 16: Texture d128x64 not found
 ---- WriteBSPFile ----
 Wrote soj.bsp
-         6493 planes           129860
-        14424 vertexes         173088
-         8176 nodes            196224
-          117 texinfo            4680
-        12144 faces            242880
-        14303 clipnodes        114424
-         5161 leafs            144508
-        14739 marksurfaces      29478
-        54290 surfedges        217160
-        27353 edges            109412
-           27 textures        6099392
+         6717 planes           134340
+        14939 vertexes         179268
+         8634 nodes            207216
+          128 texinfo            5120
+        12658 faces            253160
+        15313 clipnodes        122504
+         5404 leafs            151312
+        15359 marksurfaces      30718
+        56494 surfedges        225976
+        28454 edges            113816
+           30 textures        5794884
               lightdata             0
               visdata               0
-              entdata            7174
+              entdata            7975
 
-22.786 seconds elapsed
-Peak memory usage: 108718442 (103.7M)
+4.313 seconds elapsed
+Peak memory usage: 111955514 (106.8M)
