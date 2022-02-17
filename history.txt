@@ -24,3 +24,8 @@ noclip
 fullscreen 1
 noskip
 noclip
+noclip\
+noclip
+viewsize 100
+viewsize 120
+r_drawviewmodel 0

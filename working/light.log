@@ -18,25 +18,25 @@ WARNING: entity at (268 188 -308) (light) has unmatched "target" (road)
 WARNING: brush entity with mins (822.79 149.00 177.00) maxs (831.43 211.29 367.00) (func_wall) has targetname "window3", which is not targeted by anything.
 WARNING: brush entity with mins (824.41 313.02 177.00) maxs (833.05 375.31 367.00) (func_wall) has targetname "window2", which is not targeted by anything.
 WARNING: brush entity with mins (858.92 458.52 177.00) maxs (883.68 517.01 367.00) (func_wall) has targetname "window1", which is not targeted by anything.
-104 entities read, 78 are lights.
+108 entities read, 82 are lights.
 --- OptionsSummary ---
     "light" was set to "40" from map
     "phong" was set to "1" from map
     "bounce" was set to "1" from map
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	177 sky faces
-	12146 solid faces
-	69 filtered faces
+	176 sky faces
+	13409 solid faces
+	142 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 78 initial lights
-SetupLights: 78 after surface lights
-SetupLights: 78 after jittering
+SetupLights: 82 initial lights
+SetupLights: 82 after surface lights
+SetupLights: 82 after jittering
 WARNING: couldn't nudge light in solid at 332.000000 216.000000 -640.000000
 WARNING: couldn't nudge light in solid at 796.000000 -464.000000 44.000000
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 78 lights, 0 suns in use.
+Final count: 82 lights, 0 suns in use.
 Colored light entities/settings detected: .lit output enabled.
 --- LightWorld ---
 --- MakeTextureColors ---
@@ -44,17 +44,17 @@ Colored light entities/settings detected: .lit output enabled.
 0....1....2....3....4....5....6....7....8....9....
 --- LightThread ---
 0....1....2....3....4....5....6....7....8....9....
-Indirect lights: 12051 bounce lights, 0 surface lights (0 light points) in use.
+Indirect lights: 13386 bounce lights, 0 surface lights (0 light points) in use.
 Lighting Completed.
 
-lightdatasize: 584618
+lightdatasize: 604418
 Writing soj.lit
 0 switchable light styles (32 max)
 Writing soj.bsp as BSP version 29
-39.683 seconds elapsed
+80.902 seconds elapsed
 
 stats:
-0.388714 lights tested, 0.147490 hits per sample point
+0.460409 lights tested, 0.194874 hits per sample point
 0.000000 surface lights tested, 0.000000 hits per sample point
-13.347451 bounce lights tested, 5.880040 hits per sample point
-734 empty lightmaps
+15.856929 bounce lights tested, 7.279969 hits per sample point
+733 empty lightmaps
