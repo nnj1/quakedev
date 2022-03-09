@@ -1,0 +1,104 @@
+---- qbsp / ericw-tools v0.18.1-388-g6e96ae7c ----
+Input file: /Users/newlynjoseph/quakedev/soj/maps/soj.map
+Output file: /Users/newlynjoseph/quakedev/soj/maps/soj.bsp
+
+gamedir: /Users/newlynjoseph/quakedev/soj/
+basedir: /Users/newlynjoseph/quakedev/ID1/
+qdir:    /Users/newlynjoseph/quakedev/
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+        10088 faces
+         1342 brushes
+          137 entities
+           34 unique texnames
+          194 texinfo
+
+Opened WAD: /Users/newlynjoseph/quakedev/soj/maps/../../wads/e1m1.wad
+Opened WAD: /Users/newlynjoseph/quakedev/soj/maps/../../wads/Makkon2.wad
+Opened WAD: /Users/newlynjoseph/quakedev/soj/maps/../../wads/Makkon1.wad
+Opened WAD: /Users/newlynjoseph/quakedev/soj/maps/../../wads/mg1.wad
+Opened WAD: /Users/newlynjoseph/quakedev/soj/maps/../../wads/biome-pritchard.wad
+Opened WAD: /Users/newlynjoseph/quakedev/soj/maps/../../wads/prototype.wad
+Opened WAD: /Users/newlynjoseph/quakedev/soj/maps/../../wads/liquids.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          951 brushes
+          384 detail fence
+         3467 planes
+---- CSGFaces ----
+        10039 brushfaces
+        10122 csgfaces
+        10679 mergedfaces
+---- SolidBSP ----
+        16596 split nodes
+         3353 solid leafs
+        10221 empty leafs
+          537 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+         2486 detail fence leafs
+            0 illusionary visblocker leafs
+        38601 leaffaces
+        33798 nodefaces
+---- Portalize ----
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1588.718 105.895 -226.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1748.828 45.387 -385.650)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1116.785 -92.687 769.914)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1144.097 -88.001 753.912)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1079.342 -211.245 703.271)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1122.297 -103.533 738.814)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1116.608 -104.509 742.147)
+        13244 vis leafs
+        13244 vis clusters
+        48576 vis portals
+---- FillOutside ----
+          390 outleafs
+---- MergeAll ----
+        10598 mergefaces
+---- SolidBSP ----
+        10397 split nodes
+         2111 solid leafs
+         6498 empty leafs
+          324 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+         1465 detail fence leafs
+            0 illusionary visblocker leafs
+        28123 leaffaces
+        22856 nodefaces
+---- Portalize ----
+         8287 vis leafs
+         3280 vis clusters
+        12926 vis portals
+---- Tjunc ----
+        15764 world edges
+        52075 edge points
+        11793 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1747.796 166.637 -234.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1741.196 166.406 -308.249)
+Processing hull 2...
+*** WARNING 16: Texture d128x64 not found
+---- WriteBSPFile ----
+Writing /Users/newlynjoseph/quakedev/soj/maps/soj.bsp as BSP version Quake BSP
+Wrote /Users/newlynjoseph/quakedev/soj/maps/soj.bsp
+      7 models      
+   8148 planes           162960
+  18605 vertexes         223260
+  10458 nodes            250992
+    170 texinfos           6800
+  16337 faces            326740
+  18547 clipnodes        148376
+   8344 leafs            233632
+  20221 marksurfaces      40442
+  38130 edges            152520
+  75815 surfedges        303260
+     40 textures        5909564
+        lightdata             0
+        visdata               0
+        entdata            8552
+
+21.765 seconds elapsed

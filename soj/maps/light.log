@@ -1,0 +1,64 @@
+---- light / ericw-tools v0.18.1-388-g6e96ae7c ----
+running with 4 threads
+LoadBSPFile: '/Users/newlynjoseph/quakedev/soj/maps/soj.bsp'
+BSP is version Quake BSP
+gamedir: /Users/newlynjoseph/quakedev/soj/
+basedir: /Users/newlynjoseph/quakedev/ID1/
+qdir:    /Users/newlynjoseph/quakedev/
+--- ConvertTextures ---
+Loading extended texinfo flags from /Users/newlynjoseph/quakedev/soj/maps/soj.texinfo...
+--- LoadEntities ---
+WARNING: entity at (272 92 -308) (light) has unmatched "target" (road)
+WARNING: entity at (268 -164 -308) (light) has unmatched "target" (road)
+WARNING: entity at (272 -420 -308) (light) has unmatched "target" (road)
+WARNING: entity at (268 -680 -308) (light) has unmatched "target" (road)
+WARNING: entity at (268 -580 -308) (light) has unmatched "target" (road)
+WARNING: entity at (268 -328 -308) (light) has unmatched "target" (road)
+WARNING: entity at (272 -68 -308) (light) has unmatched "target" (road)
+WARNING: entity at (268 188 -308) (light) has unmatched "target" (road)
+WARNING: brush entity with mins (822.79 149.00 177.00) maxs (831.43 211.29 367.00) (func_wall) has targetname "window3", which is not targeted by anything.
+WARNING: brush entity with mins (824.41 313.02 177.00) maxs (833.05 375.31 367.00) (func_wall) has targetname "window2", which is not targeted by anything.
+WARNING: brush entity with mins (858.92 458.52 177.00) maxs (883.68 517.01 367.00) (func_wall) has targetname "window1", which is not targeted by anything.
+112 entities read, 85 are lights.
+--- OptionsSummary ---
+    "light" was set to "40" from map
+    "phong" was set to "1" from map
+    "bounce" was set to "1" from map
+Embree_TraceInit: Embree version: 3.13.3
+Embree_TraceInit:
+	176 sky faces
+	15665 solid faces
+	154 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 85 initial lights
+--- MakeSurfaceLights ---
+SetupLights: 85 after surface lights
+SetupLights: 85 after jittering
+WARNING: couldn't nudge light in solid at 332.000000 216.000000 -640.000000
+WARNING: couldn't nudge light in solid at 796.000000 -464.000000 44.000000
+--- EstimateLightVisibility ---
+0....1....2....3....4....5....6....7....8....9....
+Final count: 85 lights, 0 suns in use.
+Colored light entities/settings detected: .lit output enabled.
+--- LightWorld ---
+--- CalculateVertexNormals ---
+--- MakeTextureColors ---
+--- MakeBounceLights ---
+0....1....2....3....4....5....6....7....8....9....
+15614 bounce lights created
+--- LightThread ---
+0....1....2....3....4....5....6....7....8....9....
+Indirect lights: 15614 bounce lights, 0 surface lights (0 light points) in use.
+Lighting Completed.
+
+lightdatasize: 635664
+Writing /Users/newlynjoseph/quakedev/soj/maps/soj.lit
+0 switchable light styles (32 max)
+Writing /Users/newlynjoseph/quakedev/soj/maps/soj.bsp as BSP version Quake BSP
+74.533 seconds elapsed
+
+stats:
+0.479602 lights tested, 0.222876 hits per sample point
+0.000000 surface lights tested, 0.000000 hits per sample point
+17.036631 bounce lights tested, 8.374287 hits per sample point
+952 empty lightmaps

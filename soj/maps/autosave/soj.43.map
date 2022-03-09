@@ -5,7 +5,7 @@
 "classname" "worldspawn"
 "_tb_mod" "pd_200"
 "_tb_def" "external:C:/quakedev/pd_200/development/fgd_def/pd_200_TB.fgd"
-"wad" "C:/quakedev/wads/e1m1.wad;C:/quakedev/wads/Makkon2.wad;C:/quakedev/wads/Makkon1.wad;C:/quakedev/wads/mg1.wad;C:/quakedev/wads/prototype.wad"
+"wad" "C:/quakedev/wads/e1m1.wad;C:/quakedev/wads/Makkon2.wad;C:/quakedev/wads/Makkon1.wad;C:/quakedev/wads/mg1.wad;C:/quakedev/wads/prototype.wad;C:/quakedev/wads/biome-pritchard.wad"
 "fog" ".020 .41 .13 .55"
 "sky" "starfrost_"
 "light" "40"
@@ -2233,12 +2233,12 @@
 }
 // brush 236
 {
-( 1088 -44 -596 ) ( 1088 -43 -596 ) ( 1088 -44 -595 ) TF_Metal2_04 0 0 0 1 1
-( 1088 -44 -596 ) ( 1088 -44 -595 ) ( 1089 -44 -596 ) TF_Metal2_04 0 0 0 1 1
-( 1088 -44 -596 ) ( 1089 -44 -596 ) ( 1088 -43 -596 ) TF_Metal2_04 0 0 0 1 1
-( 1092 40 -592 ) ( 1092 41 -592 ) ( 1093 40 -592 ) TF_Metal2_04 0 0 0 1 1
-( 1092 40 -592 ) ( 1093 40 -592 ) ( 1092 40 -591 ) TF_Metal2_04 0 0 0 1 1
-( 1092 40 -592 ) ( 1092 40 -591 ) ( 1092 41 -592 ) TF_Metal2_04 0 0 0 1 1
+( 1088 -44 -596 ) ( 1088 -43 -596 ) ( 1088 -44 -595 ) {fence 0 0 0 1 1
+( 1088 -44 -596 ) ( 1088 -44 -595 ) ( 1089 -44 -596 ) {fence 0 0 0 1 1
+( 1088 -44 -596 ) ( 1089 -44 -596 ) ( 1088 -43 -596 ) {fence 0 0 0 1 1
+( 1092 40 -576 ) ( 1092 41 -576 ) ( 1093 40 -576 ) {fence 0 0 0 1 1
+( 1092 40 -592 ) ( 1093 40 -592 ) ( 1092 40 -591 ) {fence 0 0 0 1 1
+( 1092 40 -592 ) ( 1092 40 -591 ) ( 1092 41 -592 ) {fence 0 0 0 1 1
 }
 }
 // entity 1

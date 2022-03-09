@@ -1,0 +1,19 @@
+---- vis / ericw-tools v0.18.1-388-g6e96ae7c ----
+fastvis = true
+running with 4 threads
+testlevel = 4
+LoadBSPFile: '/Users/newlynjoseph/quakedev/soj/maps/soj.bsp'
+BSP is version Quake BSP
+  8287 leafs
+  3280 clusters
+ 12926 portals
+Calculating Base Vis:
+0....1....2....3....4....5....6....7....8....9....
+Calculating Full Vis:
+Expanding clusters...
+average leafs visible: 7583
+c_noclip: 0
+c_chains: 0
+visdatasize:3152976  compressed from 8585332
+Writing /Users/newlynjoseph/quakedev/soj/maps/soj.bsp as BSP version Quake BSP
+ 52.4 seconds elapsed

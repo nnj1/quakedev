@@ -4,8 +4,8 @@
 {
 "classname" "worldspawn"
 "_tb_mod" "pd_200"
-"_tb_def" "external:C:/quakedev/pd_200/development/fgd_def/pd_200_TB.fgd"
-"wad" "C:/quakedev/wads/e1m1.wad;C:/quakedev/wads/Makkon2.wad;C:/quakedev/wads/Makkon1.wad;C:/quakedev/wads/mg1.wad;C:/quakedev/wads/prototype.wad;C:/quakedev/wads/biome-pritchard.wad;C:/quakedev/wads/liquids.wad"
+"_tb_def" "external:../../pd_200/development/fgd_def/pd_200_TB.fgd"
+"wad" "../../wads/e1m1.wad;../../wads/Makkon2.wad;../../wads/Makkon1.wad;../../wads/mg1.wad;../../wads/biome-pritchard.wad;../../wads/prototype.wad;../../wads/liquids.wad"
 "fog" ".020 .41 .13 .55"
 "sky" "starfrost_"
 "light" "40"
@@ -14938,7 +14938,7 @@
 // entity 134
 {
 "classname" "func_wall"
-"alpha" "0.5"
+"alpha" "0.3"
 // brush 0
 {
 ( 1558.5358983848623 187.32050807568874 -300 ) ( 1536.5358983848623 149.21539030917347 -300 ) ( 1536.5358983848623 149.21539030917347 -772 ) +5_fall 0 0 0 1 1

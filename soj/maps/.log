@@ -1,0 +1,10 @@
+---- qbsp / ericw-tools v0.18.1-388-g6e96ae7c ----
+Input file: /Users/newlynjoseph/quakedev/soj/maps/.map
+Output file: /Users/newlynjoseph/quakedev/soj/maps/.bsp
+
+gamedir: /Users/newlynjoseph/quakedev/soj/
+basedir: /Users/newlynjoseph/quakedev/ID1/
+qdir:    /Users/newlynjoseph/quakedev/
+---- LoadMapFile ----
+************ ERROR ************
+Failed to open /Users/newlynjoseph/quakedev/soj/maps/.map: No such file or directory
